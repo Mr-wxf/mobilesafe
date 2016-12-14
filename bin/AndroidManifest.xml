@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.wxf.mobilesafe"
+    android:versionCode="1"
+    android:versionName="2.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="14" />
+
+    <instrumentation
+        android:name="android.test.InstrumentationTestRunner"
+        android:targetPackage="com.wxf.mobilesafe" />
+
+    <uses-permission android:name="android.permission.READ_CALL_LOG" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_CALL_LOG" />
+    <uses-permission android:name="android.permission.READ_LOGS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" /> <!-- 获取准确GPS坐标的权限 -->
+    <uses-permission android:name="android.permission.ACCESS_MOCK_LOCATION" /> <!-- 允许模拟器模拟位置坐标的权限 -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" /> <!-- 获取粗略坐标的权限(网络定位时使用) -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FIND_LOCATION" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.PROCESS_OUTGOING_CALLS" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.READ_LOGS" />
+    <uses-permission android:name="android.permission.WRITE_CONTACTS" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.WRITE_SMS" />
+    <uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES" />
+    <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.GET_PACKAGE_SIZE" />
+    <uses-permission android:name="android.permission.GET_PACKAGE_SIZE" />
+    <uses-permission android:name="android.permission.CLEAR_APP_CACHE" />
+    <!--
+<uses-permission android:name="android.permission.DELETE_CACHE_FILES"/>
+       只有系统能用的权限
+    -->
+    <application
+        android:name="com.wxf.mobilesafe.application.MyApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <uses-library android:name="android.test.runner" />
+
+        <activity
+            android:name="com.wxf.mobilesafe.activity.SplashActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <!-- <data android:scheme="myapp" android:host="akm.app" android:pathPrefix="/openwith"/> -->
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.wxf.mobilesafe.activity.HomeActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.HOME" />
+                <!-- <data android:scheme="myapp" android:host="akm.app" android:pathPrefix="/openwith"/> -->
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.wxf.mobilesafe.activity.TestActivity" >
+        </activity>
+        <activity android:name="com.wxf.mobilesafe.activity.SettingActivity" >
+        </activity>
+        <activity android:name="com.wxf.mobilesafe.activity.SetupOver" >
+        </activity>
+        <activity android:name="com.wxf.mobilesafe.activity.Setup1Activity" >
+        </activity>
+        <activity android:name="com.wxf.mobilesafe.activity.Setup2Activity" >
+        </activity>
+        <activity android:name="com.wxf.mobilesafe.activity.Setup3Activity" >
+        </activity>
+        <activity android:name="com.wxf.mobilesafe.activity.Setup4Activity" >
+        </activity>
+        <activity android:name="com.wxf.mobilesafe.activity.ContactListActivity" >
+        </activity>
+        <activity android:name="com.wxf.mobilesafe.activity.BaseSetupActivity" >
+        </activity>
+        <activity
+            android:name="com.wxf.mobilesafe.activity.ToastLocationActivity"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+        </activity>
+        <activity android:name="com.wxf.mobilesafe.activity.AtoolsActivity" >
+        </activity>
+        <activity android:name="com.wxf.mobilesafe.activity.QueryPhoneNumberActivity" >
+        </activity>
+        <activity android:name="com.wxf.mobilesafe.activity.BlackNumberActivity" >
+        </activity>
+        <activity android:name="com.wxf.mobilesafe.activity.AppManager" >
+        </activity>
+        <activity android:name="com.wxf.mobilesafe.activity.ProcessManager" >
+        </activity>
+        <activity android:name="com.wxf.mobilesafe.activity.ProcessSettingActivity" >
+        </activity>
+        <activity android:name="com.wxf.mobilesafe.activity.CommonNumberActivity" >
+        </activity>
+        <activity
+            android:name="com.wxf.mobilesafe.activity.EnterPsdActivity"
+            android:excludeFromRecents="true"
+            android:launchMode="singleInstance" >
+        </activity>
+        <activity android:name="com.wxf.mobilesafe.activity.AppLockActivity" >
+        </activity>
+        <activity android:name="com.wxf.mobilesafe.activity.KillVirusActivity" >
+        </activity>
+        <activity android:name="com.wxf.mobilesafe.activity.CacheClearActivity" >
+        </activity>
+        <activity android:name="com.wxf.mobilesafe.activity.BaseCacheClearActivity" >
+        </activity>
+        <activity android:name="com.wxf.mobilesafe.activity.SDcardCacheClearActivity" >
+        </activity>
+<activity android:name="com.wxf.mobilesafe.activity.TrafficActivity"></activity>
+        <receiver android:name="com.wxf.mobilesafe.receiver.BootReceiver" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.wxf.mobilesafe.receiver.SMSAlarmReceiver" >
+            <intent-filter>
+                <action android:name="android.provider.Telephony.SMS_RECEIVED" />
+            </intent-filter>
+        </receiver>
+
+        <service android:name="com.wxf.mobilesafe.service.LocationService" >
+        </service>
+        <service android:name="com.wxf.mobilesafe.service.AddressService" >
+        </service>
+        <service android:name="com.wxf.mobilesafe.service.BlackNumberService" >
+        </service>
+        <service android:name="com.wxf.mobilesafe.service.LockScreenClean" >
+        </service>
+        <service android:name="com.wxf.mobilesafe.service.UpdateAppWidget" >
+        </service>
+        <service android:name="com.wxf.mobilesafe.service.AppLockService" >
+        </service>
+
+        <receiver android:name="com.wxf.mobilesafe.receiver.MyAppWidgetProvider" >
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/process_widget_provider" />
+        </receiver>
+        <receiver
+            android:name="com.wxf.mobilesafe.receiver.DeviceAdmin"
+            android:description="@string/sample_device_admin_description"
+            android:label="@string/sample_device_admin"
+            android:permission="android.permission.BIND_DEVICE_ADMIN" >
+            <meta-data
+                android:name="android.app.device_admin"
+                android:resource="@xml/device_admin_sample" />
+
+            <intent-filter>
+                <action android:name="android.app.action.DEVICE_ADMIN_ENABLED" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.wxf.mobilesafe.receiver.KillAllProcessReceiver" >
+            <intent-filter>
+                <action android:name="android.intent.action.KILLALLPROCESSRECEIVER" />
+            </intent-filter>
+        </receiver>
+    </application>
+
+</manifest>

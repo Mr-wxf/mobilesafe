@@ -1,0 +1,131 @@
+# view AndroidManifest.xml #generated:11
+-keep class android.test.InstrumentationTestRunner { <init>(...); }
+
+# view AndroidManifest.xml #generated:115
+-keep class com.wxf.mobilesafe.activity.AppLockActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:102
+-keep class com.wxf.mobilesafe.activity.AppManager { <init>(...); }
+
+# view AndroidManifest.xml #generated:96
+-keep class com.wxf.mobilesafe.activity.AtoolsActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:121
+-keep class com.wxf.mobilesafe.activity.BaseCacheClearActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:90
+-keep class com.wxf.mobilesafe.activity.BaseSetupActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:100
+-keep class com.wxf.mobilesafe.activity.BlackNumberActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:119
+-keep class com.wxf.mobilesafe.activity.CacheClearActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:108
+-keep class com.wxf.mobilesafe.activity.CommonNumberActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:88
+-keep class com.wxf.mobilesafe.activity.ContactListActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:110
+-keep class com.wxf.mobilesafe.activity.EnterPsdActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:67
+-keep class com.wxf.mobilesafe.activity.HomeActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:117
+-keep class com.wxf.mobilesafe.activity.KillVirusActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:104
+-keep class com.wxf.mobilesafe.activity.ProcessManager { <init>(...); }
+
+# view AndroidManifest.xml #generated:106
+-keep class com.wxf.mobilesafe.activity.ProcessSettingActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:98
+-keep class com.wxf.mobilesafe.activity.QueryPhoneNumberActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:123
+-keep class com.wxf.mobilesafe.activity.SDcardCacheClearActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:76
+-keep class com.wxf.mobilesafe.activity.SettingActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:80
+-keep class com.wxf.mobilesafe.activity.Setup1Activity { <init>(...); }
+
+# view AndroidManifest.xml #generated:82
+-keep class com.wxf.mobilesafe.activity.Setup2Activity { <init>(...); }
+
+# view AndroidManifest.xml #generated:84
+-keep class com.wxf.mobilesafe.activity.Setup3Activity { <init>(...); }
+
+# view AndroidManifest.xml #generated:86
+-keep class com.wxf.mobilesafe.activity.Setup4Activity { <init>(...); }
+
+# view AndroidManifest.xml #generated:78
+-keep class com.wxf.mobilesafe.activity.SetupOver { <init>(...); }
+
+# view AndroidManifest.xml #generated:58
+-keep class com.wxf.mobilesafe.activity.SplashActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:74
+-keep class com.wxf.mobilesafe.activity.TestActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:92
+-keep class com.wxf.mobilesafe.activity.ToastLocationActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:125
+-keep class com.wxf.mobilesafe.activity.TrafficActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:50
+-keep class com.wxf.mobilesafe.application.MyApplication { <init>(...); }
+
+# view AndroidManifest.xml #generated:126
+-keep class com.wxf.mobilesafe.receiver.BootReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:159
+-keep class com.wxf.mobilesafe.receiver.DeviceAdmin { <init>(...); }
+
+# view AndroidManifest.xml #generated:172
+-keep class com.wxf.mobilesafe.receiver.KillAllProcessReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:150
+-keep class com.wxf.mobilesafe.receiver.MyAppWidgetProvider { <init>(...); }
+
+# view AndroidManifest.xml #generated:131
+-keep class com.wxf.mobilesafe.receiver.SMSAlarmReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:139
+-keep class com.wxf.mobilesafe.service.AddressService { <init>(...); }
+
+# view AndroidManifest.xml #generated:147
+-keep class com.wxf.mobilesafe.service.AppLockService { <init>(...); }
+
+# view AndroidManifest.xml #generated:141
+-keep class com.wxf.mobilesafe.service.BlackNumberService { <init>(...); }
+
+# view AndroidManifest.xml #generated:137
+-keep class com.wxf.mobilesafe.service.LocationService { <init>(...); }
+
+# view AndroidManifest.xml #generated:143
+-keep class com.wxf.mobilesafe.service.LockScreenClean { <init>(...); }
+
+# view AndroidManifest.xml #generated:145
+-keep class com.wxf.mobilesafe.service.UpdateAppWidget { <init>(...); }
+
+# view res/layout/activity_home.xml #generated:24
+-keep class com.wxf.mobilesafe.view.FocusTextView { <init>(...); }
+
+# view res/layout/activity_setting.xml #generated:34
+# view res/layout/activity_setting.xml #generated:40
+-keep class com.wxf.mobilesafe.view.SettingClickView { <init>(...); }
+
+# view res/layout/activity_setting.xml #generated:13
+# view res/layout/activity_setting.xml #generated:24
+# view res/layout/activity_setting.xml #generated:46
+# view res/layout/activity_setting.xml #generated:56
+# view res/layout/setup2_activity.xml #generated:17
+-keep class com.wxf.mobilesafe.view.SettingView { <init>(...); }
+

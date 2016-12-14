@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+		<!-- <resource>
+			<declare-styleable name="TextView">
+				<attr name="text" format="string"/>
+			</declare-styleable>
+		<resource> -->
+<resources>
+    <declare-styleable name="com.wxf.mobilesafe.view.SettingView">
+				<attr name="destitle" format="string"/>
+				<attr name="desoff" format="string"/>
+				<attr name="deson" format="string"/>
+			</declare-styleable>
+</resources>

@@ -1,0 +1,1617 @@
+android.content.pm.IPackageDataObserver -> a.a.a.a:
+    void onRemoveCompleted(java.lang.String,boolean) -> a
+android.content.pm.IPackageDataObserver$Stub -> a.a.a.b:
+    android.os.IBinder asBinder() -> asBinder
+    boolean onTransact(int,android.os.Parcel,android.os.Parcel,int) -> onTransact
+android.content.pm.IPackageStatsObserver -> a.a.a.c:
+    void onGetStatsCompleted(android.content.pm.PackageStats,boolean) -> a
+android.content.pm.IPackageStatsObserver$Stub -> a.a.a.d:
+    android.os.IBinder asBinder() -> asBinder
+    boolean onTransact(int,android.os.Parcel,android.os.Parcel,int) -> onTransact
+com.android.internal.telephony.ITelephony -> com.a.a.a.a:
+    void dial(java.lang.String) -> a
+    void call(java.lang.String) -> b
+    boolean showCallScreen() -> a
+    boolean showCallScreenWithDialpad(boolean) -> a
+    boolean endCall() -> b
+    void answerRingingCall() -> c
+    void silenceRinger() -> d
+    boolean isOffhook() -> e
+    boolean isRinging() -> f
+    boolean isIdle() -> g
+    boolean isRadioOn() -> h
+    boolean isSimPinEnabled() -> i
+    void cancelMissedCallsNotification() -> j
+    boolean supplyPin(java.lang.String) -> c
+    boolean handlePinMmi(java.lang.String) -> d
+    void toggleRadioOnOff() -> k
+    boolean setRadio(boolean) -> b
+    void updateServiceLocation() -> l
+    void enableLocationUpdates() -> m
+    void disableLocationUpdates() -> n
+    int enableApnType(java.lang.String) -> e
+    int disableApnType(java.lang.String) -> f
+    boolean enableDataConnectivity() -> o
+    boolean disableDataConnectivity() -> p
+    boolean isDataConnectivityPossible() -> q
+    android.os.Bundle getCellLocation() -> r
+    java.util.List getNeighboringCellInfo() -> s
+    int getCallState() -> t
+    int getDataActivity() -> u
+    int getDataState() -> v
+    int getActivePhoneType() -> w
+    int getCdmaEriIconIndex() -> x
+    int getCdmaEriIconMode() -> y
+    java.lang.String getCdmaEriText() -> z
+    boolean getCdmaNeedsProvisioning() -> A
+    int getVoiceMessageCount() -> B
+    int getNetworkType() -> C
+    boolean hasIccCard() -> D
+com.android.internal.telephony.ITelephony$Stub -> com.a.a.a.b:
+    com.android.internal.telephony.ITelephony asInterface(android.os.IBinder) -> a
+    boolean onTransact(int,android.os.Parcel,android.os.Parcel,int) -> onTransact
+com.android.internal.telephony.ITelephony$Stub$Proxy -> com.a.a.a.c:
+    android.os.IBinder mRemote -> a
+    android.os.IBinder asBinder() -> asBinder
+    void dial(java.lang.String) -> a
+    void call(java.lang.String) -> b
+    boolean showCallScreen() -> a
+    boolean showCallScreenWithDialpad(boolean) -> a
+    boolean endCall() -> b
+    void answerRingingCall() -> c
+    void silenceRinger() -> d
+    boolean isOffhook() -> e
+    boolean isRinging() -> f
+    boolean isIdle() -> g
+    boolean isRadioOn() -> h
+    boolean isSimPinEnabled() -> i
+    void cancelMissedCallsNotification() -> j
+    boolean supplyPin(java.lang.String) -> c
+    boolean handlePinMmi(java.lang.String) -> d
+    void toggleRadioOnOff() -> k
+    boolean setRadio(boolean) -> b
+    void updateServiceLocation() -> l
+    void enableLocationUpdates() -> m
+    void disableLocationUpdates() -> n
+    int enableApnType(java.lang.String) -> e
+    int disableApnType(java.lang.String) -> f
+    boolean enableDataConnectivity() -> o
+    boolean disableDataConnectivity() -> p
+    boolean isDataConnectivityPossible() -> q
+    android.os.Bundle getCellLocation() -> r
+    java.util.List getNeighboringCellInfo() -> s
+    int getCallState() -> t
+    int getDataActivity() -> u
+    int getDataState() -> v
+    int getActivePhoneType() -> w
+    int getCdmaEriIconIndex() -> x
+    int getCdmaEriIconMode() -> y
+    java.lang.String getCdmaEriText() -> z
+    boolean getCdmaNeedsProvisioning() -> A
+    int getVoiceMessageCount() -> B
+    int getNetworkType() -> C
+    boolean hasIccCard() -> D
+com.lidroid.xutils.HttpUtils -> com.b.a.a:
+    com.lidroid.xutils.http.HttpCache sHttpCache -> a
+    org.apache.http.impl.client.DefaultHttpClient httpClient -> b
+    org.apache.http.protocol.HttpContext httpContext -> c
+    com.lidroid.xutils.http.callback.HttpRedirectHandler httpRedirectHandler -> d
+    java.lang.String responseTextCharset -> e
+    long currentRequestExpiry -> f
+    com.lidroid.xutils.task.PriorityExecutor EXECUTOR -> g
+    com.lidroid.xutils.http.HttpHandler download(java.lang.String,java.lang.String,com.lidroid.xutils.http.callback.RequestCallBack) -> a
+    com.lidroid.xutils.http.HttpHandler download(com.lidroid.xutils.http.client.HttpRequest$HttpMethod,java.lang.String,java.lang.String,com.lidroid.xutils.http.RequestParams,boolean,boolean,com.lidroid.xutils.http.callback.RequestCallBack) -> a
+com.lidroid.xutils.HttpUtils$1 -> com.b.a.b:
+    com.lidroid.xutils.HttpUtils this$0 -> a
+    void process(org.apache.http.HttpRequest,org.apache.http.protocol.HttpContext) -> process
+com.lidroid.xutils.HttpUtils$2 -> com.b.a.c:
+    com.lidroid.xutils.HttpUtils this$0 -> a
+    void process(org.apache.http.HttpResponse,org.apache.http.protocol.HttpContext) -> process
+com.lidroid.xutils.cache.KeyExpiryMap -> com.b.a.a.a:
+    java.lang.Long get(java.lang.Object) -> a
+    java.lang.Long put(java.lang.Object,java.lang.Long) -> a
+    boolean containsKey(java.lang.Object) -> containsKey
+    java.lang.Long remove(java.lang.Object) -> b
+    void clear() -> clear
+    java.lang.Object get(java.lang.Object) -> get
+    java.lang.Object remove(java.lang.Object) -> remove
+    java.lang.Object put(java.lang.Object,java.lang.Object) -> put
+com.lidroid.xutils.cache.LruMemoryCache -> com.b.a.a.b:
+    java.util.LinkedHashMap map -> a
+    int size -> b
+    int maxSize -> c
+    int putCount -> d
+    int createCount -> e
+    int evictionCount -> f
+    int hitCount -> g
+    int missCount -> h
+    com.lidroid.xutils.cache.KeyExpiryMap keyExpiryMap -> i
+    java.lang.Object get(java.lang.Object) -> a
+    java.lang.Object put(java.lang.Object,java.lang.Object,long) -> a
+    void trimToSize(int) -> a
+    java.lang.Object remove(java.lang.Object) -> b
+    void entryRemoved(boolean,java.lang.Object,java.lang.Object,java.lang.Object) -> a
+    java.lang.Object create(java.lang.Object) -> c
+    int safeSizeOf(java.lang.Object,java.lang.Object) -> b
+    int sizeOf(java.lang.Object,java.lang.Object) -> a
+    java.lang.String toString() -> toString
+com.lidroid.xutils.exception.BaseException -> com.b.a.b.a:
+com.lidroid.xutils.exception.HttpException -> com.b.a.b.b:
+    int exceptionCode -> a
+com.lidroid.xutils.http.HttpCache -> com.b.a.c.a:
+    com.lidroid.xutils.cache.LruMemoryCache mMemoryCache -> a
+    int cacheSize -> b
+    long defaultExpiryTime -> c
+    java.util.concurrent.ConcurrentHashMap httpMethod_enabled_map -> d
+    long getDefaultExpiryTime() -> a
+    void put(java.lang.String,java.lang.String,long) -> a
+    java.lang.String get(java.lang.String) -> a
+    boolean isEnabled(java.lang.String) -> b
+com.lidroid.xutils.http.HttpCache$1 -> com.b.a.c.b:
+    com.lidroid.xutils.http.HttpCache this$0 -> a
+    int sizeOf(java.lang.String,java.lang.String) -> a
+    int sizeOf(java.lang.Object,java.lang.Object) -> a
+com.lidroid.xutils.http.HttpHandler -> com.b.a.c.c:
+    org.apache.http.impl.client.AbstractHttpClient client -> b
+    org.apache.http.protocol.HttpContext context -> c
+    com.lidroid.xutils.http.callback.HttpRedirectHandler httpRedirectHandler -> d
+    java.lang.String requestUrl -> e
+    java.lang.String requestMethod -> f
+    org.apache.http.client.methods.HttpRequestBase request -> g
+    boolean isUploading -> h
+    com.lidroid.xutils.http.callback.RequestCallBack callback -> i
+    int retriedCount -> j
+    java.lang.String fileSavePath -> k
+    boolean isDownloadingFile -> l
+    boolean autoResume -> m
+    boolean autoRename -> n
+    java.lang.String charset -> o
+    com.lidroid.xutils.http.HttpHandler$State state -> p
+    long expiry -> q
+    long lastUpdateTime -> r
+    com.lidroid.xutils.http.HttpHandler$NotUseApacheRedirectHandler notUseApacheRedirectHandler -> s
+    void setHttpRedirectHandler(com.lidroid.xutils.http.callback.HttpRedirectHandler) -> a
+    void setExpiry(long) -> a
+    com.lidroid.xutils.http.ResponseInfo sendRequest(org.apache.http.client.methods.HttpRequestBase) -> a
+    java.lang.Void doInBackground(java.lang.Object[]) -> a
+    void onProgressUpdate(java.lang.Object[]) -> b
+    com.lidroid.xutils.http.ResponseInfo handleResponse(org.apache.http.HttpResponse) -> a
+    boolean updateProgress(long,long,boolean) -> a
+    java.lang.Object doInBackground(java.lang.Object[]) -> c
+com.lidroid.xutils.http.HttpHandler$NotUseApacheRedirectHandler -> com.b.a.c.d:
+    boolean isRedirectRequested(org.apache.http.HttpResponse,org.apache.http.protocol.HttpContext) -> isRedirectRequested
+    java.net.URI getLocationURI(org.apache.http.HttpResponse,org.apache.http.protocol.HttpContext) -> getLocationURI
+com.lidroid.xutils.http.HttpHandler$State -> com.b.a.c.e:
+    com.lidroid.xutils.http.HttpHandler$State WAITING -> a
+    com.lidroid.xutils.http.HttpHandler$State STARTED -> b
+    com.lidroid.xutils.http.HttpHandler$State LOADING -> c
+    com.lidroid.xutils.http.HttpHandler$State FAILURE -> d
+    com.lidroid.xutils.http.HttpHandler$State CANCELLED -> e
+    com.lidroid.xutils.http.HttpHandler$State SUCCESS -> f
+    int value -> g
+    com.lidroid.xutils.http.HttpHandler$State[] ENUM$VALUES -> h
+    com.lidroid.xutils.http.HttpHandler$State[] values() -> values
+    com.lidroid.xutils.http.HttpHandler$State valueOf(java.lang.String) -> valueOf
+com.lidroid.xutils.http.RequestParams -> com.b.a.c.f:
+    java.lang.String charset -> a
+    java.util.List headers -> b
+    java.util.List queryStringParams -> c
+    org.apache.http.HttpEntity bodyEntity -> d
+    java.util.List bodyParams -> e
+    java.util.HashMap fileParams -> f
+    com.lidroid.xutils.task.Priority priority -> g
+    com.lidroid.xutils.task.Priority getPriority() -> a
+    java.lang.String getCharset() -> b
+    org.apache.http.HttpEntity getEntity() -> c
+    java.util.List getQueryStringParams() -> d
+    java.util.List getHeaders() -> e
+com.lidroid.xutils.http.RequestParams$HeaderItem -> com.b.a.c.g:
+    boolean overwrite -> a
+    org.apache.http.Header header -> b
+com.lidroid.xutils.http.ResponseInfo -> com.b.a.c.h:
+    org.apache.http.HttpResponse response -> j
+    java.lang.Object result -> a
+    boolean resultFormCache -> b
+    java.util.Locale locale -> c
+    int statusCode -> d
+    org.apache.http.ProtocolVersion protocolVersion -> e
+    java.lang.String reasonPhrase -> f
+    long contentLength -> g
+    org.apache.http.Header contentType -> h
+    org.apache.http.Header contentEncoding -> i
+com.lidroid.xutils.http.callback.DefaultHttpRedirectHandler -> com.b.a.c.a.a:
+    org.apache.http.client.methods.HttpRequestBase getDirectRequest(org.apache.http.HttpResponse) -> a
+com.lidroid.xutils.http.callback.FileDownloadHandler -> com.b.a.c.a.b:
+    java.io.File handleEntity(org.apache.http.HttpEntity,com.lidroid.xutils.http.callback.RequestCallBackHandler,java.lang.String,boolean,java.lang.String) -> a
+com.lidroid.xutils.http.callback.HttpRedirectHandler -> com.b.a.c.a.c:
+    org.apache.http.client.methods.HttpRequestBase getDirectRequest(org.apache.http.HttpResponse) -> a
+com.lidroid.xutils.http.callback.RequestCallBack -> com.b.a.c.a.d:
+    java.lang.String requestUrl -> a
+    int rate -> b
+    int getRate() -> a
+    void setRequestUrl(java.lang.String) -> a
+    void onStart() -> b
+    void onLoading(long,long,boolean) -> a
+    void onSuccess(com.lidroid.xutils.http.ResponseInfo) -> a
+    void onFailure(com.lidroid.xutils.exception.HttpException,java.lang.String) -> a
+com.lidroid.xutils.http.callback.RequestCallBackHandler -> com.b.a.c.a.e:
+    boolean updateProgress(long,long,boolean) -> a
+com.lidroid.xutils.http.callback.StringDownloadHandler -> com.b.a.c.a.f:
+    java.lang.String handleEntity(org.apache.http.HttpEntity,com.lidroid.xutils.http.callback.RequestCallBackHandler,java.lang.String) -> a
+com.lidroid.xutils.http.client.DefaultSSLSocketFactory -> com.b.a.c.b.a:
+    javax.net.ssl.SSLContext sslContext -> a
+    java.security.KeyStore trustStore -> b
+    com.lidroid.xutils.http.client.DefaultSSLSocketFactory instance -> c
+    com.lidroid.xutils.http.client.DefaultSSLSocketFactory getSocketFactory() -> a
+    java.net.Socket createSocket(java.net.Socket,java.lang.String,int,boolean) -> createSocket
+    java.net.Socket createSocket() -> createSocket
+com.lidroid.xutils.http.client.DefaultSSLSocketFactory$1 -> com.b.a.c.b.b:
+    com.lidroid.xutils.http.client.DefaultSSLSocketFactory this$0 -> a
+    java.security.cert.X509Certificate[] getAcceptedIssuers() -> getAcceptedIssuers
+    void checkClientTrusted(java.security.cert.X509Certificate[],java.lang.String) -> checkClientTrusted
+    void checkServerTrusted(java.security.cert.X509Certificate[],java.lang.String) -> checkServerTrusted
+com.lidroid.xutils.http.client.HttpRequest -> com.b.a.c.b.c:
+    org.apache.http.HttpEntity entity -> a
+    com.lidroid.xutils.http.client.HttpRequest$HttpMethod method -> b
+    com.lidroid.xutils.http.client.util.URIBuilder uriBuilder -> c
+    java.nio.charset.Charset uriCharset -> d
+    com.lidroid.xutils.http.client.HttpRequest addQueryStringParams(java.util.List) -> a
+    void setRequestParams(com.lidroid.xutils.http.RequestParams,com.lidroid.xutils.http.callback.RequestCallBackHandler) -> a
+    java.net.URI getURI() -> getURI
+    void setURI(java.net.URI) -> setURI
+    void setURI(java.lang.String) -> a
+    java.lang.String getMethod() -> getMethod
+    org.apache.http.HttpEntity getEntity() -> getEntity
+    void setEntity(org.apache.http.HttpEntity) -> setEntity
+    boolean expectContinue() -> expectContinue
+    java.lang.Object clone() -> clone
+com.lidroid.xutils.http.client.HttpRequest$HttpMethod -> com.b.a.c.b.d:
+    com.lidroid.xutils.http.client.HttpRequest$HttpMethod GET -> a
+    com.lidroid.xutils.http.client.HttpRequest$HttpMethod POST -> b
+    com.lidroid.xutils.http.client.HttpRequest$HttpMethod PUT -> c
+    com.lidroid.xutils.http.client.HttpRequest$HttpMethod HEAD -> d
+    com.lidroid.xutils.http.client.HttpRequest$HttpMethod MOVE -> e
+    com.lidroid.xutils.http.client.HttpRequest$HttpMethod COPY -> f
+    com.lidroid.xutils.http.client.HttpRequest$HttpMethod DELETE -> g
+    com.lidroid.xutils.http.client.HttpRequest$HttpMethod OPTIONS -> h
+    com.lidroid.xutils.http.client.HttpRequest$HttpMethod TRACE -> i
+    com.lidroid.xutils.http.client.HttpRequest$HttpMethod CONNECT -> j
+    java.lang.String value -> k
+    com.lidroid.xutils.http.client.HttpRequest$HttpMethod[] ENUM$VALUES -> l
+    java.lang.String toString() -> toString
+    com.lidroid.xutils.http.client.HttpRequest$HttpMethod[] values() -> values
+    com.lidroid.xutils.http.client.HttpRequest$HttpMethod valueOf(java.lang.String) -> valueOf
+com.lidroid.xutils.http.client.RetryHandler -> com.b.a.c.b.e:
+    java.util.HashSet exceptionWhiteList -> a
+    java.util.HashSet exceptionBlackList -> b
+    int maxRetries -> c
+    boolean retryRequest(java.io.IOException,int,org.apache.http.protocol.HttpContext) -> retryRequest
+com.lidroid.xutils.http.client.entity.BodyParamsEntity -> com.b.a.c.b.a.a:
+    byte[] content -> a
+    boolean dirty -> b
+    java.lang.String charset -> c
+    java.util.List params -> d
+    void refreshContent() -> a
+    boolean isRepeatable() -> isRepeatable
+    long getContentLength() -> getContentLength
+    java.io.InputStream getContent() -> getContent
+    void writeTo(java.io.OutputStream) -> writeTo
+    boolean isStreaming() -> isStreaming
+    java.lang.Object clone() -> clone
+com.lidroid.xutils.http.client.entity.DecompressingEntity -> com.b.a.c.b.a.b:
+    java.io.InputStream content -> a
+    long uncompressedLength -> b
+    long uploadedSize -> c
+    com.lidroid.xutils.http.callback.RequestCallBackHandler callBackHandler -> d
+    java.io.InputStream decorate(java.io.InputStream) -> a
+    java.io.InputStream getDecompressingStream() -> a
+    java.io.InputStream getContent() -> getContent
+    long getContentLength() -> getContentLength
+    void writeTo(java.io.OutputStream) -> writeTo
+    void setCallBackHandler(com.lidroid.xutils.http.callback.RequestCallBackHandler) -> a
+com.lidroid.xutils.http.client.entity.GZipDecompressingEntity -> com.b.a.c.b.a.c:
+    java.io.InputStream decorate(java.io.InputStream) -> a
+    org.apache.http.Header getContentEncoding() -> getContentEncoding
+    long getContentLength() -> getContentLength
+    java.io.InputStream getContent() -> getContent
+    void setCallBackHandler(com.lidroid.xutils.http.callback.RequestCallBackHandler) -> a
+    void writeTo(java.io.OutputStream) -> writeTo
+com.lidroid.xutils.http.client.entity.UploadEntity -> com.b.a.c.b.a.d:
+    void setCallBackHandler(com.lidroid.xutils.http.callback.RequestCallBackHandler) -> a
+com.lidroid.xutils.http.client.multipart.FormBodyPart -> com.b.a.c.b.b.a:
+    java.lang.String name -> a
+    com.lidroid.xutils.http.client.multipart.MinimalFieldHeader header -> b
+    com.lidroid.xutils.http.client.multipart.content.ContentBody body -> c
+    java.lang.String getName() -> a
+    com.lidroid.xutils.http.client.multipart.content.ContentBody getBody() -> b
+    com.lidroid.xutils.http.client.multipart.MinimalFieldHeader getHeader() -> c
+    void addField(java.lang.String,java.lang.String) -> a
+    void generateContentDisposition(com.lidroid.xutils.http.client.multipart.content.ContentBody) -> a
+    void generateContentType(com.lidroid.xutils.http.client.multipart.content.ContentBody) -> b
+    void generateTransferEncoding(com.lidroid.xutils.http.client.multipart.content.ContentBody) -> c
+com.lidroid.xutils.http.client.multipart.HttpMultipart -> com.b.a.c.b.b.b:
+    org.apache.http.util.ByteArrayBuffer FIELD_SEP -> a
+    org.apache.http.util.ByteArrayBuffer CR_LF -> b
+    org.apache.http.util.ByteArrayBuffer TWO_DASHES -> c
+    java.lang.String subType -> d
+    java.nio.charset.Charset charset -> e
+    java.lang.String boundary -> f
+    java.util.List parts -> g
+    com.lidroid.xutils.http.client.multipart.HttpMultipartMode mode -> h
+    int[] $SWITCH_TABLE$com$lidroid$xutils$http$client$multipart$HttpMultipartMode -> i
+    org.apache.http.util.ByteArrayBuffer encode(java.nio.charset.Charset,java.lang.String) -> a
+    void writeBytes(org.apache.http.util.ByteArrayBuffer,java.io.OutputStream) -> a
+    void writeBytes(java.lang.String,java.nio.charset.Charset,java.io.OutputStream) -> a
+    void writeBytes(java.lang.String,java.io.OutputStream) -> a
+    void writeField(com.lidroid.xutils.http.client.multipart.MinimalField,java.io.OutputStream) -> a
+    void writeField(com.lidroid.xutils.http.client.multipart.MinimalField,java.nio.charset.Charset,java.io.OutputStream) -> a
+    java.util.List getBodyParts() -> a
+    void addBodyPart(com.lidroid.xutils.http.client.multipart.FormBodyPart) -> a
+    java.lang.String getBoundary() -> b
+    void doWriteTo(com.lidroid.xutils.http.client.multipart.HttpMultipartMode,java.io.OutputStream,boolean) -> a
+    void doWriteTo(com.lidroid.xutils.http.client.multipart.HttpMultipartMode,java.io.OutputStream,com.lidroid.xutils.http.client.multipart.MultipartEntity$CallBackInfo,boolean) -> a
+    void writeTo(java.io.OutputStream,com.lidroid.xutils.http.client.multipart.MultipartEntity$CallBackInfo) -> a
+    long getTotalLength() -> c
+    int[] $SWITCH_TABLE$com$lidroid$xutils$http$client$multipart$HttpMultipartMode() -> d
+com.lidroid.xutils.http.client.multipart.HttpMultipartMode -> com.b.a.c.b.b.c:
+    com.lidroid.xutils.http.client.multipart.HttpMultipartMode STRICT -> a
+    com.lidroid.xutils.http.client.multipart.HttpMultipartMode BROWSER_COMPATIBLE -> b
+    com.lidroid.xutils.http.client.multipart.HttpMultipartMode[] ENUM$VALUES -> c
+    com.lidroid.xutils.http.client.multipart.HttpMultipartMode[] values() -> values
+    com.lidroid.xutils.http.client.multipart.HttpMultipartMode valueOf(java.lang.String) -> valueOf
+com.lidroid.xutils.http.client.multipart.MIME -> com.b.a.c.b.b.d:
+    java.nio.charset.Charset DEFAULT_CHARSET -> a
+com.lidroid.xutils.http.client.multipart.MinimalField -> com.b.a.c.b.b.e:
+    java.lang.String name -> a
+    java.lang.String value -> b
+    java.lang.String getName() -> a
+    java.lang.String getBody() -> b
+    java.lang.String toString() -> toString
+com.lidroid.xutils.http.client.multipart.MinimalFieldHeader -> com.b.a.c.b.b.f:
+    java.util.List fields -> a
+    java.util.Map fieldMap -> b
+    void addField(com.lidroid.xutils.http.client.multipart.MinimalField) -> a
+    com.lidroid.xutils.http.client.multipart.MinimalField getField(java.lang.String) -> a
+    java.util.Iterator iterator() -> iterator
+    java.lang.String toString() -> toString
+com.lidroid.xutils.http.client.multipart.MultipartEntity -> com.b.a.c.b.b.g:
+    com.lidroid.xutils.http.client.multipart.MultipartEntity$CallBackInfo callBackInfo -> a
+    char[] MULTIPART_CHARS -> b
+    com.lidroid.xutils.http.client.multipart.HttpMultipart multipart -> c
+    org.apache.http.Header contentType -> d
+    long length -> e
+    boolean dirty -> f
+    java.lang.String boundary -> g
+    java.nio.charset.Charset charset -> h
+    java.lang.String multipartSubtype -> i
+    void setCallBackHandler(com.lidroid.xutils.http.callback.RequestCallBackHandler) -> a
+    java.lang.String generateContentType(java.lang.String,java.nio.charset.Charset) -> a
+    java.lang.String generateBoundary() -> a
+    void addPart(com.lidroid.xutils.http.client.multipart.FormBodyPart) -> a
+    void addPart(java.lang.String,com.lidroid.xutils.http.client.multipart.content.ContentBody) -> a
+    boolean isRepeatable() -> isRepeatable
+    boolean isChunked() -> isChunked
+    boolean isStreaming() -> isStreaming
+    long getContentLength() -> getContentLength
+    org.apache.http.Header getContentType() -> getContentType
+    org.apache.http.Header getContentEncoding() -> getContentEncoding
+    void consumeContent() -> consumeContent
+    java.io.InputStream getContent() -> getContent
+    void writeTo(java.io.OutputStream) -> writeTo
+com.lidroid.xutils.http.client.multipart.MultipartEntity$CallBackInfo -> com.b.a.c.b.b.h:
+    com.lidroid.xutils.http.client.multipart.MultipartEntity$CallBackInfo DEFAULT -> a
+    com.lidroid.xutils.http.callback.RequestCallBackHandler callBackHandler -> b
+    long totalLength -> c
+    long pos -> d
+    boolean doCallBack(boolean) -> a
+com.lidroid.xutils.http.client.multipart.content.AbstractContentBody -> com.b.a.c.b.b.a.a:
+    java.lang.String mimeType -> b
+    java.lang.String mediaType -> c
+    java.lang.String subType -> d
+    com.lidroid.xutils.http.client.multipart.MultipartEntity$CallBackInfo callBackInfo -> a
+    java.lang.String getMimeType() -> a
+    void setCallBackInfo(com.lidroid.xutils.http.client.multipart.MultipartEntity$CallBackInfo) -> a
+com.lidroid.xutils.http.client.multipart.content.ContentBody -> com.b.a.c.b.b.a.b:
+    java.lang.String getFilename() -> b
+    void writeTo(java.io.OutputStream) -> a
+    void setCallBackInfo(com.lidroid.xutils.http.client.multipart.MultipartEntity$CallBackInfo) -> a
+com.lidroid.xutils.http.client.multipart.content.ContentDescriptor -> com.b.a.c.b.b.a.c:
+    java.lang.String getMimeType() -> a
+    java.lang.String getCharset() -> c
+    java.lang.String getTransferEncoding() -> d
+    long getContentLength() -> e
+com.lidroid.xutils.http.client.multipart.content.StringBody -> com.b.a.c.b.b.a.d:
+    byte[] content -> b
+    java.nio.charset.Charset charset -> c
+    void writeTo(java.io.OutputStream) -> a
+    java.lang.String getTransferEncoding() -> d
+    java.lang.String getCharset() -> c
+    long getContentLength() -> e
+    java.lang.String getFilename() -> b
+com.lidroid.xutils.http.client.util.URIBuilder -> com.b.a.c.b.c.a:
+    java.lang.String scheme -> a
+    java.lang.String encodedSchemeSpecificPart -> b
+    java.lang.String encodedAuthority -> c
+    java.lang.String userInfo -> d
+    java.lang.String encodedUserInfo -> e
+    java.lang.String host -> f
+    int port -> g
+    java.lang.String path -> h
+    java.lang.String encodedPath -> i
+    java.lang.String encodedQuery -> j
+    java.util.List queryParams -> k
+    java.lang.String fragment -> l
+    java.lang.String encodedFragment -> m
+    void digestURI(java.net.URI) -> a
+    java.util.List parseQuery(java.lang.String) -> a
+    java.net.URI build(java.nio.charset.Charset) -> a
+    java.lang.String buildString(java.nio.charset.Charset) -> b
+    java.lang.String encodeUserInfo(java.lang.String,java.nio.charset.Charset) -> a
+    java.lang.String encodePath(java.lang.String,java.nio.charset.Charset) -> b
+    java.lang.String encodeQuery(java.util.List,java.nio.charset.Charset) -> a
+    java.lang.String encodeFragment(java.lang.String,java.nio.charset.Charset) -> c
+    com.lidroid.xutils.http.client.util.URIBuilder addParameter(java.lang.String,java.lang.String) -> a
+    java.lang.String normalizePath(java.lang.String) -> b
+com.lidroid.xutils.http.client.util.URLEncodedUtils -> com.b.a.c.b.c.b:
+    char[] DELIM -> a
+    java.util.BitSet UNRESERVED -> b
+    java.util.BitSet PUNCT -> c
+    java.util.BitSet USERINFO -> d
+    java.util.BitSet PATHSAFE -> e
+    java.util.BitSet FRAGMENT -> f
+    java.util.BitSet RESERVED -> g
+    java.util.BitSet URLENCODER -> h
+    java.util.List parse(java.lang.String) -> a
+    java.lang.String format(java.util.List,java.lang.String) -> a
+    java.lang.String format(java.lang.Iterable,java.nio.charset.Charset) -> a
+    java.lang.String urlencode(java.lang.String,java.nio.charset.Charset,java.util.BitSet,boolean) -> a
+    java.lang.String encodeFormFields(java.lang.String,java.lang.String) -> a
+    java.lang.String encodeFormFields(java.lang.String,java.nio.charset.Charset) -> d
+    java.lang.String encUserInfo(java.lang.String,java.nio.charset.Charset) -> a
+    java.lang.String encFragment(java.lang.String,java.nio.charset.Charset) -> b
+    java.lang.String encPath(java.lang.String,java.nio.charset.Charset) -> c
+com.lidroid.xutils.task.Node -> com.b.a.d.a:
+    boolean valueAsT -> b
+    com.lidroid.xutils.task.PriorityObject value -> c
+    com.lidroid.xutils.task.Node next -> a
+    com.lidroid.xutils.task.Priority getPriority() -> a
+    java.lang.Object getValue() -> b
+    void setValue(java.lang.Object) -> a
+com.lidroid.xutils.task.Priority -> com.b.a.d.b:
+    com.lidroid.xutils.task.Priority UI_TOP -> a
+    com.lidroid.xutils.task.Priority UI_NORMAL -> b
+    com.lidroid.xutils.task.Priority UI_LOW -> c
+    com.lidroid.xutils.task.Priority DEFAULT -> d
+    com.lidroid.xutils.task.Priority BG_TOP -> e
+    com.lidroid.xutils.task.Priority BG_NORMAL -> f
+    com.lidroid.xutils.task.Priority BG_LOW -> g
+    com.lidroid.xutils.task.Priority[] ENUM$VALUES -> h
+    com.lidroid.xutils.task.Priority[] values() -> values
+    com.lidroid.xutils.task.Priority valueOf(java.lang.String) -> valueOf
+com.lidroid.xutils.task.PriorityAsyncTask -> com.b.a.d.c:
+    com.lidroid.xutils.task.PriorityAsyncTask$InternalHandler sHandler -> b
+    java.util.concurrent.Executor sDefaultExecutor -> a
+    com.lidroid.xutils.task.PriorityAsyncTask$WorkerRunnable mWorker -> c
+    java.util.concurrent.FutureTask mFuture -> d
+    boolean mExecuteInvoked -> e
+    java.util.concurrent.atomic.AtomicBoolean mCancelled -> f
+    java.util.concurrent.atomic.AtomicBoolean mTaskInvoked -> g
+    com.lidroid.xutils.task.Priority priority -> h
+    void setPriority(com.lidroid.xutils.task.Priority) -> a
+    void postResultIfNotInvoked(java.lang.Object) -> c
+    java.lang.Object postResult(java.lang.Object) -> d
+    java.lang.Object doInBackground(java.lang.Object[]) -> c
+    void onPreExecute() -> a
+    void onPostExecute(java.lang.Object) -> a
+    void onProgressUpdate(java.lang.Object[]) -> b
+    void onCancelled(java.lang.Object) -> b
+    void onCancelled() -> b
+    boolean isCancelled() -> c
+    com.lidroid.xutils.task.PriorityAsyncTask executeOnExecutor(java.util.concurrent.Executor,java.lang.Object[]) -> a
+    void publishProgress(java.lang.Object[]) -> d
+    void finish(java.lang.Object) -> e
+    void access$0(com.lidroid.xutils.task.PriorityAsyncTask,java.lang.Object) -> a
+    java.util.concurrent.atomic.AtomicBoolean access$1(com.lidroid.xutils.task.PriorityAsyncTask) -> a
+    java.lang.Object access$2(com.lidroid.xutils.task.PriorityAsyncTask,java.lang.Object) -> b
+    void access$3(com.lidroid.xutils.task.PriorityAsyncTask,java.lang.Object) -> c
+com.lidroid.xutils.task.PriorityAsyncTask$1 -> com.b.a.d.d:
+    com.lidroid.xutils.task.PriorityAsyncTask this$0 -> a
+    java.lang.Object call() -> call
+com.lidroid.xutils.task.PriorityAsyncTask$2 -> com.b.a.d.e:
+    com.lidroid.xutils.task.PriorityAsyncTask this$0 -> a
+    void done() -> done
+com.lidroid.xutils.task.PriorityAsyncTask$AsyncTaskResult -> com.b.a.d.f:
+    com.lidroid.xutils.task.PriorityAsyncTask mTask -> a
+    java.lang.Object[] mData -> b
+com.lidroid.xutils.task.PriorityAsyncTask$InternalHandler -> com.b.a.d.g:
+    void handleMessage(android.os.Message) -> handleMessage
+com.lidroid.xutils.task.PriorityAsyncTask$WorkerRunnable -> com.b.a.d.h:
+    java.lang.Object[] mParams -> b
+com.lidroid.xutils.task.PriorityExecutor -> com.b.a.d.i:
+    java.util.concurrent.ThreadFactory sThreadFactory -> a
+    java.util.concurrent.BlockingQueue mPoolWorkQueue -> b
+    java.util.concurrent.ThreadPoolExecutor mThreadPoolExecutor -> c
+    void execute(java.lang.Runnable) -> execute
+com.lidroid.xutils.task.PriorityExecutor$1 -> com.b.a.d.j:
+    java.util.concurrent.atomic.AtomicInteger mCount -> a
+    java.lang.Thread newThread(java.lang.Runnable) -> newThread
+com.lidroid.xutils.task.PriorityObject -> com.b.a.d.k:
+    com.lidroid.xutils.task.Priority priority -> a
+    java.lang.Object obj -> b
+com.lidroid.xutils.task.PriorityObjectBlockingQueue -> com.b.a.d.l:
+    int capacity -> b
+    java.util.concurrent.atomic.AtomicInteger count -> c
+    com.lidroid.xutils.task.Node head -> a
+    com.lidroid.xutils.task.Node last -> d
+    java.util.concurrent.locks.ReentrantLock takeLock -> e
+    java.util.concurrent.locks.Condition notEmpty -> f
+    java.util.concurrent.locks.ReentrantLock putLock -> g
+    java.util.concurrent.locks.Condition notFull -> h
+    void signalNotEmpty() -> c
+    void signalNotFull() -> d
+    java.lang.Object opQueue(com.lidroid.xutils.task.Node) -> a
+    void _enqueue(com.lidroid.xutils.task.Node) -> b
+    java.lang.Object _dequeue() -> e
+    void fullyLock() -> a
+    void fullyUnlock() -> b
+    int size() -> size
+    int remainingCapacity() -> remainingCapacity
+    void put(java.lang.Object) -> put
+    boolean offer(java.lang.Object,long,java.util.concurrent.TimeUnit) -> offer
+    boolean offer(java.lang.Object) -> offer
+    java.lang.Object take() -> take
+    java.lang.Object poll(long,java.util.concurrent.TimeUnit) -> poll
+    java.lang.Object poll() -> poll
+    java.lang.Object peek() -> peek
+    void unlink(com.lidroid.xutils.task.Node,com.lidroid.xutils.task.Node) -> a
+    boolean remove(java.lang.Object) -> remove
+    boolean contains(java.lang.Object) -> contains
+    java.lang.Object[] toArray() -> toArray
+    java.lang.Object[] toArray(java.lang.Object[]) -> toArray
+    void clear() -> clear
+    int drainTo(java.util.Collection) -> drainTo
+    int drainTo(java.util.Collection,int) -> drainTo
+    java.util.Iterator iterator() -> iterator
+com.lidroid.xutils.task.PriorityObjectBlockingQueue$Itr -> com.b.a.d.m:
+    com.lidroid.xutils.task.Node current -> b
+    com.lidroid.xutils.task.Node lastRet -> c
+    java.lang.Object currentElement -> d
+    com.lidroid.xutils.task.PriorityObjectBlockingQueue this$0 -> a
+    boolean hasNext() -> hasNext
+    com.lidroid.xutils.task.Node nextNode(com.lidroid.xutils.task.Node) -> a
+    java.lang.Object next() -> next
+    void remove() -> remove
+com.lidroid.xutils.task.PriorityRunnable -> com.b.a.d.n:
+    void run() -> run
+com.lidroid.xutils.util.CharsetUtils -> com.b.a.e.a:
+    java.util.List SUPPORT_CHARSET -> a
+    java.lang.String toCharset(java.lang.String,java.lang.String,int) -> a
+    java.lang.String getEncoding(java.lang.String,int) -> a
+    boolean isCharset(java.lang.String,java.lang.String,int) -> b
+com.lidroid.xutils.util.IOUtils -> com.b.a.e.b:
+    void closeQuietly(java.io.Closeable) -> a
+com.lidroid.xutils.util.LogUtils -> com.b.a.e.c:
+    java.lang.String customTagPrefix -> a
+    boolean allowD -> b
+    boolean allowE -> c
+    boolean allowI -> d
+    boolean allowV -> e
+    boolean allowW -> f
+    boolean allowWtf -> g
+    com.lidroid.xutils.util.LogUtils$CustomLogger customLogger -> h
+    java.lang.String generateTag(java.lang.StackTraceElement) -> a
+    void d(java.lang.String) -> a
+    void e(java.lang.String) -> b
+    void e(java.lang.String,java.lang.Throwable) -> a
+    void w(java.lang.Throwable) -> a
+com.lidroid.xutils.util.LogUtils$CustomLogger -> com.b.a.e.d:
+    void d(java.lang.String,java.lang.String) -> a
+    void e(java.lang.String,java.lang.String) -> b
+    void e(java.lang.String,java.lang.String,java.lang.Throwable) -> a
+    void w(java.lang.String,java.lang.Throwable) -> a
+com.lidroid.xutils.util.OtherUtils -> com.b.a.e.e:
+    java.lang.String getUserAgent(android.content.Context) -> a
+    boolean isSupportRange(org.apache.http.HttpResponse) -> a
+    java.lang.String getFileNameFromHttpResponse(org.apache.http.HttpResponse) -> b
+    java.nio.charset.Charset getCharsetFromHttpRequest(org.apache.http.client.methods.HttpRequestBase) -> a
+    long sizeOfString(java.lang.String,java.lang.String) -> a
+    java.lang.String getSubString(java.lang.String,int,int) -> a
+    java.lang.StackTraceElement getCallerStackTraceElement() -> a
+com.wxf.mobilesafe.activity.AppLockActivity -> com.wxf.mobilesafe.activity.AppLockActivity:
+    android.widget.Button bt_unlock -> a
+    android.widget.Button bt_lock -> b
+    android.widget.LinearLayout ll_unlock -> c
+    android.widget.LinearLayout ll_lock -> d
+    android.widget.TextView tv_unlock_app -> e
+    android.widget.TextView tv_lock_app -> f
+    android.widget.ListView lv_unlock -> g
+    android.widget.ListView lv_lock -> h
+    java.util.List mUnLockApp -> i
+    java.util.List mLockApp -> j
+    com.wxf.mobilesafe.db.dao.AppLockrDAO appLockrDAO -> k
+    com.wxf.mobilesafe.activity.AppLockActivity$MyAdapter myAdapterLock -> l
+    com.wxf.mobilesafe.activity.AppLockActivity$MyAdapter myAdapterUnLock -> m
+    android.os.Handler mHandler -> n
+    android.view.animation.TranslateAnimation mTranslateAnimation -> o
+    void onCreate(android.os.Bundle) -> onCreate
+    void initAnimation() -> a
+    void initData() -> b
+    void initUI() -> c
+    void access$0(com.wxf.mobilesafe.activity.AppLockActivity,com.wxf.mobilesafe.activity.AppLockActivity$MyAdapter) -> a
+    android.widget.ListView access$1(com.wxf.mobilesafe.activity.AppLockActivity) -> a
+    com.wxf.mobilesafe.activity.AppLockActivity$MyAdapter access$2(com.wxf.mobilesafe.activity.AppLockActivity) -> b
+    void access$3(com.wxf.mobilesafe.activity.AppLockActivity,com.wxf.mobilesafe.activity.AppLockActivity$MyAdapter) -> b
+    android.widget.ListView access$4(com.wxf.mobilesafe.activity.AppLockActivity) -> c
+    com.wxf.mobilesafe.activity.AppLockActivity$MyAdapter access$5(com.wxf.mobilesafe.activity.AppLockActivity) -> d
+    android.widget.TextView access$6(com.wxf.mobilesafe.activity.AppLockActivity) -> e
+    java.util.List access$7(com.wxf.mobilesafe.activity.AppLockActivity) -> f
+    android.widget.TextView access$8(com.wxf.mobilesafe.activity.AppLockActivity) -> g
+    java.util.List access$9(com.wxf.mobilesafe.activity.AppLockActivity) -> h
+    android.view.animation.TranslateAnimation access$10(com.wxf.mobilesafe.activity.AppLockActivity) -> i
+    com.wxf.mobilesafe.db.dao.AppLockrDAO access$11(com.wxf.mobilesafe.activity.AppLockActivity) -> j
+    void access$12(com.wxf.mobilesafe.activity.AppLockActivity,java.util.List) -> a
+    void access$13(com.wxf.mobilesafe.activity.AppLockActivity,java.util.List) -> b
+    void access$14(com.wxf.mobilesafe.activity.AppLockActivity,com.wxf.mobilesafe.db.dao.AppLockrDAO) -> a
+    android.os.Handler access$15(com.wxf.mobilesafe.activity.AppLockActivity) -> k
+    android.widget.Button access$16(com.wxf.mobilesafe.activity.AppLockActivity) -> l
+    android.widget.Button access$17(com.wxf.mobilesafe.activity.AppLockActivity) -> m
+    android.widget.LinearLayout access$18(com.wxf.mobilesafe.activity.AppLockActivity) -> n
+    android.widget.LinearLayout access$19(com.wxf.mobilesafe.activity.AppLockActivity) -> o
+com.wxf.mobilesafe.activity.AppLockActivity$1 -> com.wxf.mobilesafe.activity.a:
+    com.wxf.mobilesafe.activity.AppLockActivity this$0 -> a
+    void handleMessage(android.os.Message) -> handleMessage
+com.wxf.mobilesafe.activity.AppLockActivity$2 -> com.wxf.mobilesafe.activity.b:
+    java.util.List appInfoList -> b
+    com.wxf.mobilesafe.activity.AppLockActivity this$0 -> a
+    void run() -> run
+com.wxf.mobilesafe.activity.AppLockActivity$3 -> com.wxf.mobilesafe.activity.c:
+    com.wxf.mobilesafe.activity.AppLockActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.wxf.mobilesafe.activity.AppLockActivity$4 -> com.wxf.mobilesafe.activity.d:
+    com.wxf.mobilesafe.activity.AppLockActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.wxf.mobilesafe.activity.AppLockActivity$MyAdapter -> com.wxf.mobilesafe.activity.e:
+    boolean isLock -> b
+    com.wxf.mobilesafe.activity.AppLockActivity$ViewHolder holder -> c
+    com.wxf.mobilesafe.activity.AppLockActivity this$0 -> a
+    int getCount() -> getCount
+    com.wxf.mobilesafe.db.bean.AppInfo getItem(int) -> a
+    long getItemId(int) -> getItemId
+    android.view.View getView(int,android.view.View,android.view.ViewGroup) -> getView
+    java.lang.Object getItem(int) -> getItem
+    boolean access$1(com.wxf.mobilesafe.activity.AppLockActivity$MyAdapter) -> a
+    com.wxf.mobilesafe.activity.AppLockActivity access$2(com.wxf.mobilesafe.activity.AppLockActivity$MyAdapter) -> b
+com.wxf.mobilesafe.activity.AppLockActivity$MyAdapter$1 -> com.wxf.mobilesafe.activity.f:
+    com.wxf.mobilesafe.activity.AppLockActivity$MyAdapter this$1 -> a
+    android.view.View val$animationView -> b
+    com.wxf.mobilesafe.db.bean.AppInfo val$appInfo -> c
+    void onClick(android.view.View) -> onClick
+    com.wxf.mobilesafe.activity.AppLockActivity$MyAdapter access$0(com.wxf.mobilesafe.activity.AppLockActivity$MyAdapter$1) -> a
+com.wxf.mobilesafe.activity.AppLockActivity$MyAdapter$1$1 -> com.wxf.mobilesafe.activity.g:
+    com.wxf.mobilesafe.activity.AppLockActivity$MyAdapter$1 this$2 -> a
+    com.wxf.mobilesafe.db.bean.AppInfo val$appInfo -> b
+    void onAnimationStart(android.view.animation.Animation) -> onAnimationStart
+    void onAnimationRepeat(android.view.animation.Animation) -> onAnimationRepeat
+    void onAnimationEnd(android.view.animation.Animation) -> onAnimationEnd
+com.wxf.mobilesafe.activity.AppLockActivity$ViewHolder -> com.wxf.mobilesafe.activity.h:
+    android.widget.ImageView iv_app_icon -> a
+    android.widget.TextView tv_app_name -> b
+    android.widget.ImageView iv_lock_icon -> c
+com.wxf.mobilesafe.activity.AppManager -> com.wxf.mobilesafe.activity.AppManager:
+    android.widget.TextView tv_memory -> a
+    android.widget.TextView tv_sd_card -> b
+    java.util.ArrayList appInfoList -> c
+    com.wxf.mobilesafe.db.bean.AppInfo mAppInfo -> d
+    java.util.ArrayList isSystemApp -> e
+    java.util.ArrayList isUserApp -> f
+    android.os.Handler handler -> g
+    android.widget.ListView lv_app_manager -> h
+    android.widget.TextView tv_des -> i
+    android.widget.TextView tv_uninstall -> j
+    android.widget.TextView tv_start -> k
+    android.widget.TextView tv_share -> l
+    android.widget.PopupWindow popupWindow -> m
+    void onCreate(android.os.Bundle) -> onCreate
+    void initAppInfo() -> a
+    void showPopuWindon(android.view.View) -> a
+    void initMemory() -> b
+    long getAvailableSpace(java.lang.String) -> a
+    void onClick(android.view.View) -> onClick
+    void onResume() -> onResume
+    android.widget.ListView access$0(com.wxf.mobilesafe.activity.AppManager) -> a
+    android.widget.TextView access$1(com.wxf.mobilesafe.activity.AppManager) -> b
+    java.util.ArrayList access$2(com.wxf.mobilesafe.activity.AppManager) -> c
+    java.util.ArrayList access$3(com.wxf.mobilesafe.activity.AppManager) -> d
+    void access$4(com.wxf.mobilesafe.activity.AppManager,com.wxf.mobilesafe.db.bean.AppInfo) -> a
+    void access$5(com.wxf.mobilesafe.activity.AppManager,java.util.ArrayList) -> a
+    void access$6(com.wxf.mobilesafe.activity.AppManager,java.util.ArrayList) -> b
+    void access$7(com.wxf.mobilesafe.activity.AppManager,java.util.ArrayList) -> c
+    java.util.ArrayList access$8(com.wxf.mobilesafe.activity.AppManager) -> e
+    android.os.Handler access$9(com.wxf.mobilesafe.activity.AppManager) -> f
+com.wxf.mobilesafe.activity.AppManager$1 -> com.wxf.mobilesafe.activity.i:
+    com.wxf.mobilesafe.activity.AppManager$MyAdapter myAdapter -> b
+    com.wxf.mobilesafe.activity.AppManager this$0 -> a
+    void handleMessage(android.os.Message) -> handleMessage
+com.wxf.mobilesafe.activity.AppManager$2 -> com.wxf.mobilesafe.activity.j:
+    com.wxf.mobilesafe.activity.AppManager this$0 -> a
+    void onScrollStateChanged(android.widget.AbsListView,int) -> onScrollStateChanged
+    void onScroll(android.widget.AbsListView,int,int,int) -> onScroll
+com.wxf.mobilesafe.activity.AppManager$3 -> com.wxf.mobilesafe.activity.k:
+    com.wxf.mobilesafe.activity.AppManager this$0 -> a
+    void onItemClick(android.widget.AdapterView,android.view.View,int,long) -> onItemClick
+com.wxf.mobilesafe.activity.AppManager$4 -> com.wxf.mobilesafe.activity.l:
+    com.wxf.mobilesafe.activity.AppManager this$0 -> a
+    void run() -> run
+com.wxf.mobilesafe.activity.AppManager$MyAdapter -> com.wxf.mobilesafe.activity.m:
+    com.wxf.mobilesafe.activity.AppManager$ViewHolder viewHolder -> b
+    com.wxf.mobilesafe.activity.AppManager$ViewTitleHolder viewTitleHolder -> c
+    com.wxf.mobilesafe.activity.AppManager this$0 -> a
+    int getViewTypeCount() -> getViewTypeCount
+    int getItemViewType(int) -> getItemViewType
+    int getCount() -> getCount
+    com.wxf.mobilesafe.db.bean.AppInfo getItem(int) -> a
+    long getItemId(int) -> getItemId
+    android.view.View getView(int,android.view.View,android.view.ViewGroup) -> getView
+    java.lang.Object getItem(int) -> getItem
+com.wxf.mobilesafe.activity.AppManager$ViewHolder -> com.wxf.mobilesafe.activity.n:
+    android.widget.ImageView iv_icon -> a
+    android.widget.TextView tv_appname -> b
+    android.widget.TextView tv_path -> c
+com.wxf.mobilesafe.activity.AppManager$ViewTitleHolder -> com.wxf.mobilesafe.activity.o:
+    android.widget.TextView tv_title -> a
+com.wxf.mobilesafe.activity.AtoolsActivity -> com.wxf.mobilesafe.activity.AtoolsActivity:
+    android.widget.TextView tv_query_phone_number -> a
+    android.widget.TextView tv_sms_backup -> b
+    android.widget.ProgressBar pb -> c
+    android.widget.TextView tv_common_number -> d
+    android.widget.TextView tv_app_lock -> e
+    void onCreate(android.os.Bundle) -> onCreate
+    void initAppLock() -> b
+    void initCommonNumber() -> c
+    void initSmsBackup() -> d
+    void showSmsDialog() -> a
+    void initUI() -> e
+    android.widget.ProgressBar access$0(com.wxf.mobilesafe.activity.AtoolsActivity) -> a
+com.wxf.mobilesafe.activity.AtoolsActivity$1 -> com.wxf.mobilesafe.activity.p:
+    com.wxf.mobilesafe.activity.AtoolsActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.wxf.mobilesafe.activity.AtoolsActivity$2 -> com.wxf.mobilesafe.activity.q:
+    com.wxf.mobilesafe.activity.AtoolsActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.wxf.mobilesafe.activity.AtoolsActivity$3 -> com.wxf.mobilesafe.activity.r:
+    com.wxf.mobilesafe.activity.AtoolsActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.wxf.mobilesafe.activity.AtoolsActivity$4 -> com.wxf.mobilesafe.activity.s:
+    com.wxf.mobilesafe.activity.AtoolsActivity this$0 -> a
+    android.app.ProgressDialog val$progressDialog -> b
+    void run() -> run
+    com.wxf.mobilesafe.activity.AtoolsActivity access$0(com.wxf.mobilesafe.activity.AtoolsActivity$4) -> a
+com.wxf.mobilesafe.activity.AtoolsActivity$4$1 -> com.wxf.mobilesafe.activity.t:
+    com.wxf.mobilesafe.activity.AtoolsActivity$4 this$1 -> a
+    android.app.ProgressDialog val$progressDialog -> b
+    void setProgress(int) -> a
+    void setMax(int) -> b
+com.wxf.mobilesafe.activity.AtoolsActivity$5 -> com.wxf.mobilesafe.activity.u:
+    com.wxf.mobilesafe.activity.AtoolsActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.wxf.mobilesafe.activity.BaseCacheClearActivity -> com.wxf.mobilesafe.activity.BaseCacheClearActivity:
+    void onCreate(android.os.Bundle) -> onCreate
+com.wxf.mobilesafe.activity.BaseSetupActivity -> com.wxf.mobilesafe.activity.BaseSetupActivity:
+    android.view.GestureDetector gestureDetector -> a
+    void onCreate(android.os.Bundle) -> onCreate
+    void bt_next(android.view.View) -> bt_next
+    void bt_pre(android.view.View) -> bt_pre
+    void showNext() -> a
+    void showPre() -> b
+    boolean onTouchEvent(android.view.MotionEvent) -> onTouchEvent
+com.wxf.mobilesafe.activity.BaseSetupActivity$1 -> com.wxf.mobilesafe.activity.v:
+    com.wxf.mobilesafe.activity.BaseSetupActivity this$0 -> a
+    boolean onFling(android.view.MotionEvent,android.view.MotionEvent,float,float) -> onFling
+com.wxf.mobilesafe.activity.BlackNumberActivity -> com.wxf.mobilesafe.activity.BlackNumberActivity:
+    android.widget.ListView lv_blacknumber -> c
+    android.widget.Button bt_add -> d
+    java.util.List mBlackNumberList -> e
+    com.wxf.mobilesafe.db.dao.BlcakNumberDAO db -> f
+    int count -> g
+    com.wxf.mobilesafe.activity.BlackNumberActivity$BlcakNumberAdapter blcakNumberAdapter -> h
+    boolean isload -> i
+    android.os.Handler handler -> j
+    android.widget.EditText et_phone -> k
+    android.widget.RadioGroup rg_group -> l
+    android.widget.Button bt_submit -> m
+    android.widget.Button bt_cencal -> n
+    int mode -> a
+    java.lang.String tag -> b
+    void onCreate(android.os.Bundle) -> onCreate
+    void initData() -> b
+    void queryAllBlackNumebr() -> c
+    void initUI() -> d
+    void showDialog() -> a
+    com.wxf.mobilesafe.activity.BlackNumberActivity$BlcakNumberAdapter access$0(com.wxf.mobilesafe.activity.BlackNumberActivity) -> a
+    void access$1(com.wxf.mobilesafe.activity.BlackNumberActivity,com.wxf.mobilesafe.activity.BlackNumberActivity$BlcakNumberAdapter) -> a
+    android.widget.ListView access$2(com.wxf.mobilesafe.activity.BlackNumberActivity) -> b
+    java.util.List access$3(com.wxf.mobilesafe.activity.BlackNumberActivity) -> c
+    com.wxf.mobilesafe.db.dao.BlcakNumberDAO access$4(com.wxf.mobilesafe.activity.BlackNumberActivity) -> d
+    void access$5(com.wxf.mobilesafe.activity.BlackNumberActivity,com.wxf.mobilesafe.db.dao.BlcakNumberDAO) -> a
+    void access$6(com.wxf.mobilesafe.activity.BlackNumberActivity,java.util.List) -> a
+    void access$7(com.wxf.mobilesafe.activity.BlackNumberActivity,int) -> a
+    int access$8(com.wxf.mobilesafe.activity.BlackNumberActivity) -> e
+    android.os.Handler access$9(com.wxf.mobilesafe.activity.BlackNumberActivity) -> f
+    boolean access$10(com.wxf.mobilesafe.activity.BlackNumberActivity) -> g
+    android.widget.EditText access$11(com.wxf.mobilesafe.activity.BlackNumberActivity) -> h
+com.wxf.mobilesafe.activity.BlackNumberActivity$1 -> com.wxf.mobilesafe.activity.w:
+    com.wxf.mobilesafe.activity.BlackNumberActivity this$0 -> a
+    void handleMessage(android.os.Message) -> handleMessage
+com.wxf.mobilesafe.activity.BlackNumberActivity$2 -> com.wxf.mobilesafe.activity.x:
+    com.wxf.mobilesafe.activity.BlackNumberActivity this$0 -> a
+    void run() -> run
+com.wxf.mobilesafe.activity.BlackNumberActivity$3 -> com.wxf.mobilesafe.activity.y:
+    com.wxf.mobilesafe.activity.BlackNumberActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.wxf.mobilesafe.activity.BlackNumberActivity$4 -> com.wxf.mobilesafe.activity.z:
+    com.wxf.mobilesafe.activity.BlackNumberActivity this$0 -> a
+    void onScrollStateChanged(android.widget.AbsListView,int) -> onScrollStateChanged
+    void onScroll(android.widget.AbsListView,int,int,int) -> onScroll
+    com.wxf.mobilesafe.activity.BlackNumberActivity access$0(com.wxf.mobilesafe.activity.BlackNumberActivity$4) -> a
+com.wxf.mobilesafe.activity.BlackNumberActivity$4$1 -> com.wxf.mobilesafe.activity.aa:
+    com.wxf.mobilesafe.activity.BlackNumberActivity$4 this$1 -> a
+    void run() -> run
+com.wxf.mobilesafe.activity.BlackNumberActivity$5 -> com.wxf.mobilesafe.activity.ab:
+    com.wxf.mobilesafe.activity.BlackNumberActivity this$0 -> a
+    void onCheckedChanged(android.widget.RadioGroup,int) -> onCheckedChanged
+com.wxf.mobilesafe.activity.BlackNumberActivity$6 -> com.wxf.mobilesafe.activity.ac:
+    com.wxf.mobilesafe.activity.BlackNumberActivity this$0 -> a
+    android.app.AlertDialog val$dialog -> b
+    void onClick(android.view.View) -> onClick
+com.wxf.mobilesafe.activity.BlackNumberActivity$7 -> com.wxf.mobilesafe.activity.ad:
+    com.wxf.mobilesafe.activity.BlackNumberActivity this$0 -> a
+    android.app.AlertDialog val$dialog -> b
+    void onClick(android.view.View) -> onClick
+com.wxf.mobilesafe.activity.BlackNumberActivity$BlcakNumberAdapter -> com.wxf.mobilesafe.activity.ae:
+    com.wxf.mobilesafe.activity.BlackNumberActivity this$0 -> a
+    int getCount() -> getCount
+    java.lang.Object getItem(int) -> getItem
+    long getItemId(int) -> getItemId
+    android.view.View getView(int,android.view.View,android.view.ViewGroup) -> getView
+    com.wxf.mobilesafe.activity.BlackNumberActivity access$0(com.wxf.mobilesafe.activity.BlackNumberActivity$BlcakNumberAdapter) -> a
+com.wxf.mobilesafe.activity.BlackNumberActivity$BlcakNumberAdapter$1 -> com.wxf.mobilesafe.activity.af:
+    com.wxf.mobilesafe.activity.BlackNumberActivity$BlcakNumberAdapter this$1 -> a
+    int val$position -> b
+    void onClick(android.view.View) -> onClick
+com.wxf.mobilesafe.activity.BlackNumberActivity$ViewHolder -> com.wxf.mobilesafe.activity.ag:
+    android.widget.TextView tv_phone -> a
+    android.widget.TextView tv_mode -> b
+    android.widget.ImageView iv_del -> c
+com.wxf.mobilesafe.activity.CacheClearActivity -> com.wxf.mobilesafe.activity.CacheClearActivity:
+    android.widget.Button bt_cache_clear -> a
+    android.widget.ProgressBar pb_cache -> b
+    android.widget.TextView tv_scanning_app -> c
+    android.widget.LinearLayout ll_cache_app -> d
+    android.content.pm.PackageManager mPm -> e
+    android.os.Handler mHandler -> f
+    void onCreate(android.os.Bundle) -> onCreate
+    void initData() -> a
+    void scanHaveCacheApps(java.lang.String) -> a
+    void initUI() -> b
+    android.widget.LinearLayout access$0(com.wxf.mobilesafe.activity.CacheClearActivity) -> a
+    android.content.pm.PackageManager access$1(com.wxf.mobilesafe.activity.CacheClearActivity) -> b
+    android.widget.TextView access$2(com.wxf.mobilesafe.activity.CacheClearActivity) -> c
+    void access$3(com.wxf.mobilesafe.activity.CacheClearActivity,android.content.pm.PackageManager) -> a
+    android.widget.ProgressBar access$4(com.wxf.mobilesafe.activity.CacheClearActivity) -> d
+    android.os.Handler access$5(com.wxf.mobilesafe.activity.CacheClearActivity) -> e
+com.wxf.mobilesafe.activity.CacheClearActivity$1 -> com.wxf.mobilesafe.activity.ah:
+    com.wxf.mobilesafe.activity.CacheClearActivity this$0 -> a
+    void handleMessage(android.os.Message) -> handleMessage
+    com.wxf.mobilesafe.activity.CacheClearActivity access$0(com.wxf.mobilesafe.activity.CacheClearActivity$1) -> a
+com.wxf.mobilesafe.activity.CacheClearActivity$1$1 -> com.wxf.mobilesafe.activity.ai:
+    com.wxf.mobilesafe.activity.CacheClearActivity$1 this$1 -> a
+    com.wxf.mobilesafe.activity.CacheClearActivity$CacheAppInfo val$cacheAppInfo -> b
+    void onClick(android.view.View) -> onClick
+com.wxf.mobilesafe.activity.CacheClearActivity$2 -> com.wxf.mobilesafe.activity.aj:
+    int index -> b
+    com.wxf.mobilesafe.activity.CacheClearActivity this$0 -> a
+    void run() -> run
+com.wxf.mobilesafe.activity.CacheClearActivity$3 -> com.wxf.mobilesafe.activity.ak:
+    com.wxf.mobilesafe.activity.CacheClearActivity this$0 -> a
+    void onGetStatsCompleted(android.content.pm.PackageStats,boolean) -> a
+com.wxf.mobilesafe.activity.CacheClearActivity$4 -> com.wxf.mobilesafe.activity.al:
+    com.wxf.mobilesafe.activity.CacheClearActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+    com.wxf.mobilesafe.activity.CacheClearActivity access$0(com.wxf.mobilesafe.activity.CacheClearActivity$4) -> a
+com.wxf.mobilesafe.activity.CacheClearActivity$4$1 -> com.wxf.mobilesafe.activity.am:
+    com.wxf.mobilesafe.activity.CacheClearActivity$4 this$1 -> a
+    void onRemoveCompleted(java.lang.String,boolean) -> a
+com.wxf.mobilesafe.activity.CacheClearActivity$CacheAppInfo -> com.wxf.mobilesafe.activity.an:
+    android.graphics.drawable.Drawable icon -> a
+    java.lang.String packageName -> b
+    java.lang.String name -> c
+    long cacheSize -> d
+    com.wxf.mobilesafe.activity.CacheClearActivity this$0 -> e
+com.wxf.mobilesafe.activity.CommonNumberActivity -> com.wxf.mobilesafe.activity.CommonNumberActivity:
+    android.widget.ExpandableListView elv_common_number -> a
+    java.lang.String tag -> b
+    java.util.List group -> c
+    com.wxf.mobilesafe.activity.CommonNumberActivity$MyAdapter myAdapter -> d
+    void onCreate(android.os.Bundle) -> onCreate
+    void initData() -> a
+    void startCall(java.lang.String) -> a
+    void initUI() -> b
+    java.util.List access$0(com.wxf.mobilesafe.activity.CommonNumberActivity) -> a
+    com.wxf.mobilesafe.activity.CommonNumberActivity$MyAdapter access$1(com.wxf.mobilesafe.activity.CommonNumberActivity) -> b
+com.wxf.mobilesafe.activity.CommonNumberActivity$1 -> com.wxf.mobilesafe.activity.ao:
+    com.wxf.mobilesafe.activity.CommonNumberActivity this$0 -> a
+    boolean onChildClick(android.widget.ExpandableListView,android.view.View,int,int,long) -> onChildClick
+com.wxf.mobilesafe.activity.CommonNumberActivity$MyAdapter -> com.wxf.mobilesafe.activity.ap:
+    com.wxf.mobilesafe.activity.CommonNumberActivity this$0 -> a
+    int getGroupCount() -> getGroupCount
+    int getChildrenCount(int) -> getChildrenCount
+    com.wxf.mobilesafe.db.dao.CommonNumberDAO$Group getGroup(int) -> a
+    com.wxf.mobilesafe.db.dao.CommonNumberDAO$ChildList getChild(int,int) -> a
+    long getGroupId(int) -> getGroupId
+    long getChildId(int,int) -> getChildId
+    boolean hasStableIds() -> hasStableIds
+    android.view.View getGroupView(int,boolean,android.view.View,android.view.ViewGroup) -> getGroupView
+    android.view.View getChildView(int,int,boolean,android.view.View,android.view.ViewGroup) -> getChildView
+    boolean isChildSelectable(int,int) -> isChildSelectable
+    java.lang.Object getChild(int,int) -> getChild
+    java.lang.Object getGroup(int) -> getGroup
+com.wxf.mobilesafe.activity.ContactListActivity -> com.wxf.mobilesafe.activity.ContactListActivity:
+    android.widget.ListView lv_contact -> a
+    java.util.List contactList -> b
+    com.wxf.mobilesafe.activity.ContactListActivity$MyAdapter myAdapter -> c
+    android.os.Handler handler -> d
+    void onCreate(android.os.Bundle) -> onCreate
+    void initData() -> a
+    void initUI() -> b
+    void access$0(com.wxf.mobilesafe.activity.ContactListActivity,com.wxf.mobilesafe.activity.ContactListActivity$MyAdapter) -> a
+    android.widget.ListView access$1(com.wxf.mobilesafe.activity.ContactListActivity) -> a
+    com.wxf.mobilesafe.activity.ContactListActivity$MyAdapter access$2(com.wxf.mobilesafe.activity.ContactListActivity) -> b
+    java.util.List access$3(com.wxf.mobilesafe.activity.ContactListActivity) -> c
+    android.os.Handler access$4(com.wxf.mobilesafe.activity.ContactListActivity) -> d
+com.wxf.mobilesafe.activity.ContactListActivity$1 -> com.wxf.mobilesafe.activity.aq:
+    com.wxf.mobilesafe.activity.ContactListActivity this$0 -> a
+    void handleMessage(android.os.Message) -> handleMessage
+com.wxf.mobilesafe.activity.ContactListActivity$2 -> com.wxf.mobilesafe.activity.ar:
+    com.wxf.mobilesafe.activity.ContactListActivity this$0 -> a
+    void run() -> run
+com.wxf.mobilesafe.activity.ContactListActivity$3 -> com.wxf.mobilesafe.activity.as:
+    com.wxf.mobilesafe.activity.ContactListActivity this$0 -> a
+    void onItemClick(android.widget.AdapterView,android.view.View,int,long) -> onItemClick
+com.wxf.mobilesafe.activity.ContactListActivity$MyAdapter -> com.wxf.mobilesafe.activity.at:
+    com.wxf.mobilesafe.activity.ContactListActivity this$0 -> a
+    int getCount() -> getCount
+    java.util.HashMap getItem(int) -> a
+    long getItemId(int) -> getItemId
+    android.view.View getView(int,android.view.View,android.view.ViewGroup) -> getView
+    java.lang.Object getItem(int) -> getItem
+com.wxf.mobilesafe.activity.EnterPsdActivity -> com.wxf.mobilesafe.activity.EnterPsdActivity:
+    android.widget.TextView tv_app_name -> a
+    android.widget.ImageView iv_app_icon -> b
+    android.widget.EditText et_psd -> c
+    android.widget.Button bt_submit -> d
+    java.lang.String mPackageName -> e
+    void onCreate(android.os.Bundle) -> onCreate
+    void initData() -> a
+    void initUI() -> b
+    void onBackPressed() -> onBackPressed
+    android.widget.EditText access$0(com.wxf.mobilesafe.activity.EnterPsdActivity) -> a
+    java.lang.String access$1(com.wxf.mobilesafe.activity.EnterPsdActivity) -> b
+com.wxf.mobilesafe.activity.EnterPsdActivity$1 -> com.wxf.mobilesafe.activity.au:
+    com.wxf.mobilesafe.activity.EnterPsdActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.wxf.mobilesafe.activity.HomeActivity -> com.wxf.mobilesafe.activity.HomeActivity:
+    android.widget.GridView gv_home -> b
+    java.lang.String[] mTitleStrs -> c
+    int[] mConInts -> d
+    android.widget.EditText et_confirm_psd -> e
+    android.widget.EditText et_input_psd -> f
+    android.app.admin.DevicePolicyManager mDPM -> a
+    void onCreate(android.os.Bundle) -> onCreate
+    void initDate() -> c
+    void queryPhoneAddress() -> a
+    void showDialog() -> b
+    void showConfirm() -> d
+    void initUI() -> e
+    java.lang.String[] access$0(com.wxf.mobilesafe.activity.HomeActivity) -> a
+    int[] access$1(com.wxf.mobilesafe.activity.HomeActivity) -> b
+    android.widget.EditText access$2(com.wxf.mobilesafe.activity.HomeActivity) -> c
+    android.widget.EditText access$3(com.wxf.mobilesafe.activity.HomeActivity) -> d
+com.wxf.mobilesafe.activity.HomeActivity$1 -> com.wxf.mobilesafe.activity.av:
+    com.wxf.mobilesafe.activity.HomeActivity this$0 -> a
+    void onItemClick(android.widget.AdapterView,android.view.View,int,long) -> onItemClick
+com.wxf.mobilesafe.activity.HomeActivity$2 -> com.wxf.mobilesafe.activity.aw:
+    com.wxf.mobilesafe.activity.HomeActivity this$0 -> a
+    android.app.AlertDialog val$dialog -> b
+    void onClick(android.view.View) -> onClick
+com.wxf.mobilesafe.activity.HomeActivity$3 -> com.wxf.mobilesafe.activity.ax:
+    com.wxf.mobilesafe.activity.HomeActivity this$0 -> a
+    android.app.AlertDialog val$dialog -> b
+    void onClick(android.view.View) -> onClick
+com.wxf.mobilesafe.activity.HomeActivity$4 -> com.wxf.mobilesafe.activity.ay:
+    com.wxf.mobilesafe.activity.HomeActivity this$0 -> a
+    android.app.AlertDialog val$dialog -> b
+    void onClick(android.view.View) -> onClick
+com.wxf.mobilesafe.activity.HomeActivity$5 -> com.wxf.mobilesafe.activity.az:
+    com.wxf.mobilesafe.activity.HomeActivity this$0 -> a
+    android.app.AlertDialog val$dialog -> b
+    void onClick(android.view.View) -> onClick
+com.wxf.mobilesafe.activity.HomeActivity$Myadpter -> com.wxf.mobilesafe.activity.ba:
+    com.wxf.mobilesafe.activity.HomeActivity this$0 -> a
+    int getCount() -> getCount
+    java.lang.Object getItem(int) -> getItem
+    long getItemId(int) -> getItemId
+    android.view.View getView(int,android.view.View,android.view.ViewGroup) -> getView
+com.wxf.mobilesafe.activity.KillVirusActivity -> com.wxf.mobilesafe.activity.KillVirusActivity:
+    java.lang.String tag -> a
+    android.widget.ImageView iv_scan_icon -> b
+    android.widget.TextView tv_scan_app_name -> c
+    android.widget.ProgressBar pb_bar -> d
+    android.widget.LinearLayout ll_list -> e
+    android.view.animation.RotateAnimation rotateAnimation -> f
+    int index -> g
+    java.util.List mIsVirusAppList -> h
+    android.os.Handler mHandler -> i
+    void onCreate(android.os.Bundle) -> onCreate
+    void unInstallVirus() -> a
+    void initKillVirus() -> b
+    void initAnimation() -> c
+    void initUI() -> d
+    android.widget.TextView access$0(com.wxf.mobilesafe.activity.KillVirusActivity) -> a
+    android.widget.LinearLayout access$1(com.wxf.mobilesafe.activity.KillVirusActivity) -> b
+    android.widget.ImageView access$2(com.wxf.mobilesafe.activity.KillVirusActivity) -> c
+    void access$3(com.wxf.mobilesafe.activity.KillVirusActivity,java.util.List) -> a
+    android.widget.ProgressBar access$4(com.wxf.mobilesafe.activity.KillVirusActivity) -> d
+    java.lang.String access$5(com.wxf.mobilesafe.activity.KillVirusActivity) -> e
+    java.util.List access$6(com.wxf.mobilesafe.activity.KillVirusActivity) -> f
+    int access$7(com.wxf.mobilesafe.activity.KillVirusActivity) -> g
+    void access$8(com.wxf.mobilesafe.activity.KillVirusActivity,int) -> a
+    android.os.Handler access$9(com.wxf.mobilesafe.activity.KillVirusActivity) -> h
+com.wxf.mobilesafe.activity.KillVirusActivity$1 -> com.wxf.mobilesafe.activity.bb:
+    com.wxf.mobilesafe.activity.KillVirusActivity this$0 -> a
+    void handleMessage(android.os.Message) -> handleMessage
+com.wxf.mobilesafe.activity.KillVirusActivity$2 -> com.wxf.mobilesafe.activity.bc:
+    com.wxf.mobilesafe.activity.KillVirusActivity this$0 -> a
+    void run() -> run
+com.wxf.mobilesafe.activity.KillVirusActivity$ScanAppInfo -> com.wxf.mobilesafe.activity.bd:
+    boolean isVirus -> a
+    java.lang.String packageName -> b
+    java.lang.String name -> c
+    com.wxf.mobilesafe.activity.KillVirusActivity this$0 -> d
+com.wxf.mobilesafe.activity.ProcessManager -> com.wxf.mobilesafe.activity.ProcessManager:
+    android.widget.TextView tv_process_count -> a
+    android.widget.TextView tv_memory -> b
+    android.widget.ListView lv_process -> c
+    android.widget.Button bt_all_select -> d
+    android.widget.Button bt_reverse_select -> e
+    android.widget.Button bt_setting -> f
+    android.widget.Button bt_remove -> g
+    java.util.ArrayList isSystemProcess -> h
+    java.util.ArrayList isUserProcess -> i
+    com.wxf.mobilesafe.activity.ProcessManager$MyAdapter myAdapter -> j
+    android.widget.TextView tv_des -> k
+    com.wxf.mobilesafe.db.bean.ProcessInfo processInfo -> l
+    android.os.Handler handler -> m
+    int mProcessCount -> n
+    long mAvailableMemory -> o
+    java.lang.String allMemorySize -> p
+    java.lang.String strRelase -> q
+    void onCreate(android.os.Bundle) -> onCreate
+    void initListData() -> a
+    void initData() -> b
+    void initUI() -> c
+    void onClick(android.view.View) -> onClick
+    void setting() -> d
+    void onActivityResult(int,int,android.content.Intent) -> onActivityResult
+    void removeProcess() -> e
+    void selectReverse() -> f
+    void selectAll() -> g
+    void access$0(com.wxf.mobilesafe.activity.ProcessManager,com.wxf.mobilesafe.activity.ProcessManager$MyAdapter) -> a
+    android.widget.ListView access$1(com.wxf.mobilesafe.activity.ProcessManager) -> a
+    com.wxf.mobilesafe.activity.ProcessManager$MyAdapter access$2(com.wxf.mobilesafe.activity.ProcessManager) -> b
+    android.widget.TextView access$3(com.wxf.mobilesafe.activity.ProcessManager) -> c
+    java.util.ArrayList access$4(com.wxf.mobilesafe.activity.ProcessManager) -> d
+    java.util.ArrayList access$5(com.wxf.mobilesafe.activity.ProcessManager) -> e
+    void access$6(com.wxf.mobilesafe.activity.ProcessManager,java.util.ArrayList) -> a
+    void access$7(com.wxf.mobilesafe.activity.ProcessManager,java.util.ArrayList) -> b
+    android.os.Handler access$8(com.wxf.mobilesafe.activity.ProcessManager) -> f
+    void access$9(com.wxf.mobilesafe.activity.ProcessManager,com.wxf.mobilesafe.db.bean.ProcessInfo) -> a
+    com.wxf.mobilesafe.db.bean.ProcessInfo access$10(com.wxf.mobilesafe.activity.ProcessManager) -> g
+com.wxf.mobilesafe.activity.ProcessManager$1 -> com.wxf.mobilesafe.activity.be:
+    com.wxf.mobilesafe.activity.ProcessManager this$0 -> a
+    void handleMessage(android.os.Message) -> handleMessage
+com.wxf.mobilesafe.activity.ProcessManager$2 -> com.wxf.mobilesafe.activity.bf:
+    com.wxf.mobilesafe.activity.ProcessManager this$0 -> a
+    void run() -> run
+com.wxf.mobilesafe.activity.ProcessManager$3 -> com.wxf.mobilesafe.activity.bg:
+    com.wxf.mobilesafe.activity.ProcessManager this$0 -> a
+    void onScrollStateChanged(android.widget.AbsListView,int) -> onScrollStateChanged
+    void onScroll(android.widget.AbsListView,int,int,int) -> onScroll
+com.wxf.mobilesafe.activity.ProcessManager$4 -> com.wxf.mobilesafe.activity.bh:
+    com.wxf.mobilesafe.activity.ProcessManager this$0 -> a
+    void onItemClick(android.widget.AdapterView,android.view.View,int,long) -> onItemClick
+com.wxf.mobilesafe.activity.ProcessManager$MyAdapter -> com.wxf.mobilesafe.activity.bi:
+    com.wxf.mobilesafe.activity.ProcessManager$ViewHolder viewHolder -> b
+    com.wxf.mobilesafe.activity.ProcessManager$ViewTitleHolder viewTitleHolder -> c
+    com.wxf.mobilesafe.activity.ProcessManager this$0 -> a
+    int getViewTypeCount() -> getViewTypeCount
+    int getItemViewType(int) -> getItemViewType
+    int getCount() -> getCount
+    com.wxf.mobilesafe.db.bean.ProcessInfo getItem(int) -> a
+    long getItemId(int) -> getItemId
+    android.view.View getView(int,android.view.View,android.view.ViewGroup) -> getView
+    java.lang.Object getItem(int) -> getItem
+com.wxf.mobilesafe.activity.ProcessManager$ViewHolder -> com.wxf.mobilesafe.activity.bj:
+    android.widget.ImageView iv_icon -> a
+    android.widget.TextView tv_appname -> b
+    android.widget.TextView tv_memory -> c
+    android.widget.CheckBox cb_check -> d
+com.wxf.mobilesafe.activity.ProcessManager$ViewTitleHolder -> com.wxf.mobilesafe.activity.bk:
+    android.widget.TextView tv_title -> a
+com.wxf.mobilesafe.activity.ProcessSettingActivity -> com.wxf.mobilesafe.activity.ProcessSettingActivity:
+    android.widget.CheckBox cb_show_system_process -> a
+    android.widget.CheckBox cb_lock_screen_clean -> b
+    void onCreate(android.os.Bundle) -> onCreate
+    void initLockScreenClean() -> a
+    void initSystemProcess() -> b
+    android.widget.CheckBox access$0(com.wxf.mobilesafe.activity.ProcessSettingActivity) -> a
+    android.widget.CheckBox access$1(com.wxf.mobilesafe.activity.ProcessSettingActivity) -> b
+com.wxf.mobilesafe.activity.ProcessSettingActivity$1 -> com.wxf.mobilesafe.activity.bl:
+    com.wxf.mobilesafe.activity.ProcessSettingActivity this$0 -> a
+    void onCheckedChanged(android.widget.CompoundButton,boolean) -> onCheckedChanged
+com.wxf.mobilesafe.activity.ProcessSettingActivity$2 -> com.wxf.mobilesafe.activity.bm:
+    com.wxf.mobilesafe.activity.ProcessSettingActivity this$0 -> a
+    void onCheckedChanged(android.widget.CompoundButton,boolean) -> onCheckedChanged
+com.wxf.mobilesafe.activity.QueryPhoneNumberActivity -> com.wxf.mobilesafe.activity.QueryPhoneNumberActivity:
+    android.widget.TextView tv_phone_address -> a
+    android.widget.EditText et_phone -> b
+    android.widget.Button bt_query -> c
+    java.lang.String address -> d
+    android.os.Handler handler -> e
+    void onCreate(android.os.Bundle) -> onCreate
+    void initUI() -> b
+    void queryAddress(java.lang.String) -> a
+    android.widget.TextView access$0(com.wxf.mobilesafe.activity.QueryPhoneNumberActivity) -> a
+    java.lang.String access$1() -> a
+    android.widget.EditText access$2(com.wxf.mobilesafe.activity.QueryPhoneNumberActivity) -> b
+    void access$3(java.lang.String) -> b
+    android.os.Handler access$4(com.wxf.mobilesafe.activity.QueryPhoneNumberActivity) -> c
+com.wxf.mobilesafe.activity.QueryPhoneNumberActivity$1 -> com.wxf.mobilesafe.activity.bn:
+    com.wxf.mobilesafe.activity.QueryPhoneNumberActivity this$0 -> a
+    void handleMessage(android.os.Message) -> handleMessage
+com.wxf.mobilesafe.activity.QueryPhoneNumberActivity$2 -> com.wxf.mobilesafe.activity.bo:
+    com.wxf.mobilesafe.activity.QueryPhoneNumberActivity this$0 -> a
+    void onTextChanged(java.lang.CharSequence,int,int,int) -> onTextChanged
+    void beforeTextChanged(java.lang.CharSequence,int,int,int) -> beforeTextChanged
+    void afterTextChanged(android.text.Editable) -> afterTextChanged
+com.wxf.mobilesafe.activity.QueryPhoneNumberActivity$3 -> com.wxf.mobilesafe.activity.bp:
+    com.wxf.mobilesafe.activity.QueryPhoneNumberActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.wxf.mobilesafe.activity.QueryPhoneNumberActivity$4 -> com.wxf.mobilesafe.activity.bq:
+    com.wxf.mobilesafe.activity.QueryPhoneNumberActivity this$0 -> a
+    java.lang.String val$number -> b
+    void run() -> run
+com.wxf.mobilesafe.activity.SDcardCacheClearActivity -> com.wxf.mobilesafe.activity.SDcardCacheClearActivity:
+    void onCreate(android.os.Bundle) -> onCreate
+com.wxf.mobilesafe.activity.SettingActivity -> com.wxf.mobilesafe.activity.SettingActivity:
+    com.wxf.mobilesafe.view.SettingView settingview -> a
+    com.wxf.mobilesafe.view.SettingView addressview -> b
+    com.wxf.mobilesafe.view.SettingClickView toast_style_view -> c
+    java.lang.String[] toastStyles -> d
+    int toast_style_id -> e
+    com.wxf.mobilesafe.view.SettingClickView scv_location -> f
+    com.wxf.mobilesafe.view.SettingView sv_blacknumber -> g
+    com.wxf.mobilesafe.view.SettingView siv_app_lock -> h
+    void onCreate(android.os.Bundle) -> onCreate
+    void initAppLock() -> c
+    void initBlackNumber() -> d
+    void initLocationToast() -> e
+    void initToastStyle() -> f
+    void showToastColor() -> a
+    void initAddressDate() -> b
+    void initUpdate() -> g
+    void access$0(com.wxf.mobilesafe.activity.SettingActivity) -> a
+    com.wxf.mobilesafe.view.SettingView access$1(com.wxf.mobilesafe.activity.SettingActivity) -> b
+    com.wxf.mobilesafe.view.SettingView access$2(com.wxf.mobilesafe.activity.SettingActivity) -> c
+    com.wxf.mobilesafe.view.SettingClickView access$3(com.wxf.mobilesafe.activity.SettingActivity) -> d
+    java.lang.String[] access$4(com.wxf.mobilesafe.activity.SettingActivity) -> e
+    com.wxf.mobilesafe.view.SettingView access$5(com.wxf.mobilesafe.activity.SettingActivity) -> f
+com.wxf.mobilesafe.activity.SettingActivity$1 -> com.wxf.mobilesafe.activity.br:
+    com.wxf.mobilesafe.activity.SettingActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.wxf.mobilesafe.activity.SettingActivity$2 -> com.wxf.mobilesafe.activity.bs:
+    com.wxf.mobilesafe.activity.SettingActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.wxf.mobilesafe.activity.SettingActivity$3 -> com.wxf.mobilesafe.activity.bt:
+    com.wxf.mobilesafe.activity.SettingActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.wxf.mobilesafe.activity.SettingActivity$4 -> com.wxf.mobilesafe.activity.bu:
+    com.wxf.mobilesafe.activity.SettingActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.wxf.mobilesafe.activity.SettingActivity$5 -> com.wxf.mobilesafe.activity.bv:
+    com.wxf.mobilesafe.activity.SettingActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.wxf.mobilesafe.activity.SettingActivity$6 -> com.wxf.mobilesafe.activity.bw:
+    com.wxf.mobilesafe.activity.SettingActivity this$0 -> a
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.wxf.mobilesafe.activity.SettingActivity$7 -> com.wxf.mobilesafe.activity.bx:
+    com.wxf.mobilesafe.activity.SettingActivity this$0 -> a
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.wxf.mobilesafe.activity.SettingActivity$8 -> com.wxf.mobilesafe.activity.by:
+    com.wxf.mobilesafe.activity.SettingActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.wxf.mobilesafe.activity.Setup1Activity -> com.wxf.mobilesafe.activity.Setup1Activity:
+    void onCreate(android.os.Bundle) -> onCreate
+    void showNext() -> a
+    void showPre() -> b
+com.wxf.mobilesafe.activity.Setup2Activity -> com.wxf.mobilesafe.activity.Setup2Activity:
+    com.wxf.mobilesafe.view.SettingView setup_bount -> a
+    java.lang.String number -> b
+    void onCreate(android.os.Bundle) -> onCreate
+    void showNext() -> a
+    void showPre() -> b
+    com.wxf.mobilesafe.view.SettingView access$0(com.wxf.mobilesafe.activity.Setup2Activity) -> a
+com.wxf.mobilesafe.activity.Setup2Activity$1 -> com.wxf.mobilesafe.activity.bz:
+    com.wxf.mobilesafe.activity.Setup2Activity this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.wxf.mobilesafe.activity.Setup3Activity -> com.wxf.mobilesafe.activity.Setup3Activity:
+    android.widget.EditText et_contact_number -> a
+    android.widget.Button bt_contact -> b
+    java.lang.String number -> c
+    void onCreate(android.os.Bundle) -> onCreate
+    void initUI() -> c
+    void onActivityResult(int,int,android.content.Intent) -> onActivityResult
+    void showNext() -> a
+    void showPre() -> b
+com.wxf.mobilesafe.activity.Setup3Activity$1 -> com.wxf.mobilesafe.activity.ca:
+    com.wxf.mobilesafe.activity.Setup3Activity this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.wxf.mobilesafe.activity.Setup4Activity -> com.wxf.mobilesafe.activity.Setup4Activity:
+    android.widget.CheckBox cb_success -> a
+    void onCreate(android.os.Bundle) -> onCreate
+    void initUI() -> c
+    void showNext() -> a
+    void showPre() -> b
+    android.widget.CheckBox access$0(com.wxf.mobilesafe.activity.Setup4Activity) -> a
+com.wxf.mobilesafe.activity.Setup4Activity$1 -> com.wxf.mobilesafe.activity.cb:
+    com.wxf.mobilesafe.activity.Setup4Activity this$0 -> a
+    void onCheckedChanged(android.widget.CompoundButton,boolean) -> onCheckedChanged
+com.wxf.mobilesafe.activity.SetupOver -> com.wxf.mobilesafe.activity.SetupOver:
+    android.widget.TextView tv_resert -> a
+    android.widget.TextView tv_security_number -> b
+    void onCreate(android.os.Bundle) -> onCreate
+    void initUI() -> a
+com.wxf.mobilesafe.activity.SetupOver$1 -> com.wxf.mobilesafe.activity.cc:
+    com.wxf.mobilesafe.activity.SetupOver this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.wxf.mobilesafe.activity.SplashActivity -> com.wxf.mobilesafe.activity.SplashActivity:
+    android.widget.TextView tv_version_name -> a
+    int mVersionCode -> b
+    java.lang.String tag -> c
+    java.lang.String versionDes -> d
+    java.lang.String downloadUrl -> e
+    android.widget.RelativeLayout rl_root -> f
+    android.os.Handler handler -> g
+    void onCreate(android.os.Bundle) -> onCreate
+    void initShortCut() -> e
+    void initDB() -> f
+    void initAddressDB(java.lang.String) -> a
+    void initAnimation() -> g
+    void updateAlter() -> a
+    void downloadApk() -> b
+    void onActivityResult(int,int,android.content.Intent) -> onActivityResult
+    void insertHome() -> c
+    void initData() -> h
+    void checkVersion() -> i
+    int getVersionCode() -> j
+    java.lang.String getVersionName() -> k
+    void initUI() -> l
+    java.lang.String access$0() -> d
+    android.os.Handler access$1(com.wxf.mobilesafe.activity.SplashActivity) -> a
+    void access$2(com.wxf.mobilesafe.activity.SplashActivity,java.lang.String) -> a
+    void access$3(com.wxf.mobilesafe.activity.SplashActivity,java.lang.String) -> b
+    java.lang.String access$4(com.wxf.mobilesafe.activity.SplashActivity) -> b
+    java.lang.String access$5(com.wxf.mobilesafe.activity.SplashActivity) -> c
+    int access$6(com.wxf.mobilesafe.activity.SplashActivity) -> d
+com.wxf.mobilesafe.activity.SplashActivity$1 -> com.wxf.mobilesafe.activity.cd:
+    com.wxf.mobilesafe.activity.SplashActivity this$0 -> a
+    void handleMessage(android.os.Message) -> handleMessage
+com.wxf.mobilesafe.activity.SplashActivity$2 -> com.wxf.mobilesafe.activity.ce:
+    com.wxf.mobilesafe.activity.SplashActivity this$0 -> a
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.wxf.mobilesafe.activity.SplashActivity$3 -> com.wxf.mobilesafe.activity.cf:
+    com.wxf.mobilesafe.activity.SplashActivity this$0 -> a
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.wxf.mobilesafe.activity.SplashActivity$4 -> com.wxf.mobilesafe.activity.cg:
+    com.wxf.mobilesafe.activity.SplashActivity this$0 -> a
+    void onSuccess(com.lidroid.xutils.http.ResponseInfo) -> a
+    void onFailure(com.lidroid.xutils.exception.HttpException,java.lang.String) -> a
+    void onLoading(long,long,boolean) -> a
+    void onStart() -> b
+com.wxf.mobilesafe.activity.SplashActivity$5 -> com.wxf.mobilesafe.activity.ch:
+    com.wxf.mobilesafe.activity.SplashActivity this$0 -> a
+    void run() -> run
+com.wxf.mobilesafe.activity.TestActivity -> com.wxf.mobilesafe.activity.TestActivity:
+    void onCreate(android.os.Bundle) -> onCreate
+com.wxf.mobilesafe.activity.ToastLocationActivity -> com.wxf.mobilesafe.activity.ToastLocationActivity:
+    android.widget.Button bt_bottom -> a
+    android.widget.Button bt_top -> b
+    android.widget.ImageView iv_drag -> c
+    android.view.WindowManager mWm -> d
+    int screenWidth -> e
+    int screenHeight -> f
+    long[] mHits -> g
+    void onCreate(android.os.Bundle) -> onCreate
+    void initUI() -> a
+    long[] access$0(com.wxf.mobilesafe.activity.ToastLocationActivity) -> a
+    android.widget.ImageView access$1(com.wxf.mobilesafe.activity.ToastLocationActivity) -> b
+    int access$2(com.wxf.mobilesafe.activity.ToastLocationActivity) -> c
+    int access$3(com.wxf.mobilesafe.activity.ToastLocationActivity) -> d
+    android.widget.Button access$4(com.wxf.mobilesafe.activity.ToastLocationActivity) -> e
+    android.widget.Button access$5(com.wxf.mobilesafe.activity.ToastLocationActivity) -> f
+com.wxf.mobilesafe.activity.ToastLocationActivity$1 -> com.wxf.mobilesafe.activity.ci:
+    com.wxf.mobilesafe.activity.ToastLocationActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.wxf.mobilesafe.activity.ToastLocationActivity$2 -> com.wxf.mobilesafe.activity.cj:
+    int startX -> b
+    int startY -> c
+    com.wxf.mobilesafe.activity.ToastLocationActivity this$0 -> a
+    boolean onTouch(android.view.View,android.view.MotionEvent) -> onTouch
+com.wxf.mobilesafe.activity.TrafficActivity -> com.wxf.mobilesafe.activity.TrafficActivity:
+    void onCreate(android.os.Bundle) -> onCreate
+com.wxf.mobilesafe.application.MyApplication -> com.wxf.mobilesafe.application.MyApplication:
+    void onCreate() -> onCreate
+com.wxf.mobilesafe.application.MyApplication$1 -> com.wxf.mobilesafe.application.a:
+    com.wxf.mobilesafe.application.MyApplication this$0 -> a
+    void uncaughtException(java.lang.Thread,java.lang.Throwable) -> uncaughtException
+com.wxf.mobilesafe.db.AppLockHelper -> com.wxf.mobilesafe.a.a:
+    void onCreate(android.database.sqlite.SQLiteDatabase) -> onCreate
+    void onUpgrade(android.database.sqlite.SQLiteDatabase,int,int) -> onUpgrade
+com.wxf.mobilesafe.db.BlackNumberHelper -> com.wxf.mobilesafe.a.b:
+    void onCreate(android.database.sqlite.SQLiteDatabase) -> onCreate
+    void onUpgrade(android.database.sqlite.SQLiteDatabase,int,int) -> onUpgrade
+com.wxf.mobilesafe.db.bean.AppInfo -> com.wxf.mobilesafe.a.a.a:
+    java.lang.String name -> a
+    java.lang.String packageName -> b
+    android.graphics.drawable.Drawable icon -> c
+    boolean isSDCard -> d
+    boolean isSystem -> e
+    java.lang.String getPackageName() -> a
+com.wxf.mobilesafe.db.bean.BlackNumberBean -> com.wxf.mobilesafe.a.a.b:
+    java.lang.String phone -> a
+    java.lang.String mode -> b
+com.wxf.mobilesafe.db.bean.ProcessInfo -> com.wxf.mobilesafe.a.a.c:
+    java.lang.String name -> a
+    android.graphics.drawable.Drawable icon -> b
+    long memSize -> c
+    boolean isCheck -> d
+    boolean isSystem -> e
+    java.lang.String packageName -> f
+com.wxf.mobilesafe.db.dao.AppLockrDAO -> com.wxf.mobilesafe.a.b.a:
+    com.wxf.mobilesafe.db.AppLockHelper appLockHelper -> a
+    android.content.Context context -> b
+    com.wxf.mobilesafe.db.dao.AppLockrDAO appLockrDAO -> c
+    com.wxf.mobilesafe.db.dao.AppLockrDAO getInstance(android.content.Context) -> a
+    void insert(java.lang.String) -> a
+    void delete(java.lang.String) -> b
+    java.util.List findAll() -> a
+com.wxf.mobilesafe.db.dao.BlcakNumberDAO -> com.wxf.mobilesafe.a.b.b:
+    com.wxf.mobilesafe.db.BlackNumberHelper blackNumberHelper -> a
+    com.wxf.mobilesafe.db.dao.BlcakNumberDAO blcakNumberDAO -> b
+    com.wxf.mobilesafe.db.dao.BlcakNumberDAO getInstance(android.content.Context) -> a
+    void insert(java.lang.String,java.lang.String) -> a
+    void delete(java.lang.String) -> a
+    java.util.List find(int) -> a
+    int getCount() -> a
+    int getMode(java.lang.String) -> b
+com.wxf.mobilesafe.db.dao.CommonNumberDAO -> com.wxf.mobilesafe.a.b.c:
+    java.lang.String path -> a
+    java.util.List getGroup() -> a
+    java.util.List getChildList(java.lang.String) -> a
+com.wxf.mobilesafe.db.dao.CommonNumberDAO$ChildList -> com.wxf.mobilesafe.a.b.d:
+    java.lang.String _id -> a
+    java.lang.String number -> b
+    java.lang.String name -> c
+    com.wxf.mobilesafe.db.dao.CommonNumberDAO this$0 -> d
+com.wxf.mobilesafe.db.dao.CommonNumberDAO$Group -> com.wxf.mobilesafe.a.b.e:
+    java.lang.String name -> a
+    java.lang.String idx -> b
+    java.util.List childList -> c
+    com.wxf.mobilesafe.db.dao.CommonNumberDAO this$0 -> d
+com.wxf.mobilesafe.engine.AddressDAO -> com.wxf.mobilesafe.b.a:
+    java.lang.String tag -> a
+    java.lang.String mAddress -> b
+    java.lang.String queryAddress(java.lang.String) -> a
+com.wxf.mobilesafe.engine.AppInfoEngine -> com.wxf.mobilesafe.b.b:
+    java.util.ArrayList appInfoList -> a
+    java.util.ArrayList getAppInfo(android.content.Context) -> a
+com.wxf.mobilesafe.engine.ProcessinfoEngine -> com.wxf.mobilesafe.b.c:
+    int getProcessCount(android.content.Context) -> a
+    long getAvailableMemory(android.content.Context) -> b
+    long getAllMemory() -> a
+    java.util.List getRunningProcess(android.content.Context) -> c
+    void killProcess(android.content.Context,com.wxf.mobilesafe.db.bean.ProcessInfo) -> a
+    void killAll(android.content.Context) -> d
+com.wxf.mobilesafe.engine.SmsBackupEngine -> com.wxf.mobilesafe.b.d:
+    int index -> a
+    android.database.Cursor cursor -> b
+    java.io.FileOutputStream fos -> c
+    void backupSms(android.content.Context,java.lang.String,com.wxf.mobilesafe.engine.SmsBackupEngine$CallBack) -> a
+com.wxf.mobilesafe.engine.SmsBackupEngine$CallBack -> com.wxf.mobilesafe.b.e:
+    void setMax(int) -> b
+    void setProgress(int) -> a
+com.wxf.mobilesafe.engine.VirusDAO -> com.wxf.mobilesafe.b.f:
+    java.lang.String path -> a
+    java.util.List getVirusMD5() -> a
+com.wxf.mobilesafe.receiver.BootReceiver -> com.wxf.mobilesafe.receiver.BootReceiver:
+    java.lang.String tag -> a
+    void onReceive(android.content.Context,android.content.Intent) -> onReceive
+com.wxf.mobilesafe.receiver.DeviceAdmin -> com.wxf.mobilesafe.receiver.DeviceAdmin:
+    void onReceive(android.content.Context,android.content.Intent) -> onReceive
+com.wxf.mobilesafe.receiver.KillAllProcessReceiver -> com.wxf.mobilesafe.receiver.KillAllProcessReceiver:
+    void onReceive(android.content.Context,android.content.Intent) -> onReceive
+com.wxf.mobilesafe.receiver.MyAppWidgetProvider -> com.wxf.mobilesafe.receiver.MyAppWidgetProvider:
+    void onReceive(android.content.Context,android.content.Intent) -> onReceive
+    void onUpdate(android.content.Context,android.appwidget.AppWidgetManager,int[]) -> onUpdate
+    void onEnabled(android.content.Context) -> onEnabled
+    void onDisabled(android.content.Context) -> onDisabled
+    void onDeleted(android.content.Context,int[]) -> onDeleted
+com.wxf.mobilesafe.receiver.SMSAlarmReceiver -> com.wxf.mobilesafe.receiver.SMSAlarmReceiver:
+    void onReceive(android.content.Context,android.content.Intent) -> onReceive
+com.wxf.mobilesafe.service.AddressService -> com.wxf.mobilesafe.service.AddressService:
+    android.widget.TextView tv_showtoast -> a
+    android.telephony.TelephonyManager mTM -> b
+    com.wxf.mobilesafe.service.AddressService$MyPhoneStateListener myPhoneStateListener -> c
+    android.view.WindowManager mWM -> d
+    android.view.View view -> e
+    java.lang.String address -> f
+    android.view.WindowManager$LayoutParams mParams -> g
+    android.os.Handler handler -> h
+    int toast_style -> i
+    com.wxf.mobilesafe.service.AddressService$InnerOutCallReceiver innerOutCallReceiver -> j
+    android.os.IBinder onBind(android.content.Intent) -> onBind
+    void onCreate() -> onCreate
+    void onDestroy() -> onDestroy
+    void showToast(java.lang.String) -> a
+    void query(java.lang.String) -> b
+    android.widget.TextView access$0(com.wxf.mobilesafe.service.AddressService) -> a
+    java.lang.String access$1(com.wxf.mobilesafe.service.AddressService) -> b
+    android.view.View access$2(com.wxf.mobilesafe.service.AddressService) -> c
+    android.telephony.TelephonyManager access$3(com.wxf.mobilesafe.service.AddressService) -> d
+    android.view.WindowManager access$4(com.wxf.mobilesafe.service.AddressService) -> e
+    void access$5(com.wxf.mobilesafe.service.AddressService,java.lang.String) -> a
+    android.os.Handler access$6(com.wxf.mobilesafe.service.AddressService) -> f
+com.wxf.mobilesafe.service.AddressService$1 -> com.wxf.mobilesafe.service.a:
+    com.wxf.mobilesafe.service.AddressService this$0 -> a
+    void handleMessage(android.os.Message) -> handleMessage
+com.wxf.mobilesafe.service.AddressService$2 -> com.wxf.mobilesafe.service.b:
+    int startX -> b
+    int startY -> c
+    com.wxf.mobilesafe.service.AddressService this$0 -> a
+    android.view.WindowManager$LayoutParams val$params -> d
+    boolean onTouch(android.view.View,android.view.MotionEvent) -> onTouch
+com.wxf.mobilesafe.service.AddressService$3 -> com.wxf.mobilesafe.service.c:
+    com.wxf.mobilesafe.service.AddressService this$0 -> a
+    java.lang.String val$incomingNumber -> b
+    void run() -> run
+com.wxf.mobilesafe.service.AddressService$InnerOutCallReceiver -> com.wxf.mobilesafe.service.d:
+    com.wxf.mobilesafe.service.AddressService this$0 -> a
+    void onReceive(android.content.Context,android.content.Intent) -> onReceive
+com.wxf.mobilesafe.service.AddressService$MyPhoneStateListener -> com.wxf.mobilesafe.service.e:
+    com.wxf.mobilesafe.service.AddressService this$0 -> a
+    void onCallStateChanged(int,java.lang.String) -> onCallStateChanged
+com.wxf.mobilesafe.service.AppLockService -> com.wxf.mobilesafe.service.AppLockService:
+    boolean isWatch -> a
+    com.wxf.mobilesafe.db.dao.AppLockrDAO lockrDAO -> b
+    com.wxf.mobilesafe.service.AppLockService$InnerReceiver mInnerReceiver -> c
+    java.lang.String mPackageName -> d
+    java.util.List findAll -> e
+    com.wxf.mobilesafe.service.AppLockService$MyContentObserver myContentObserver -> f
+    android.os.IBinder onBind(android.content.Intent) -> onBind
+    void onCreate() -> onCreate
+    void watch() -> a
+    void onDestroy() -> onDestroy
+    com.wxf.mobilesafe.db.dao.AppLockrDAO access$0(com.wxf.mobilesafe.service.AppLockService) -> a
+    void access$1(com.wxf.mobilesafe.service.AppLockService,java.util.List) -> a
+    void access$2(com.wxf.mobilesafe.service.AppLockService,java.lang.String) -> a
+    java.util.List access$3(com.wxf.mobilesafe.service.AppLockService) -> b
+    java.lang.String access$4(com.wxf.mobilesafe.service.AppLockService) -> c
+com.wxf.mobilesafe.service.AppLockService$1 -> com.wxf.mobilesafe.service.f:
+    com.wxf.mobilesafe.service.AppLockService this$0 -> a
+    void run() -> run
+com.wxf.mobilesafe.service.AppLockService$InnerReceiver -> com.wxf.mobilesafe.service.g:
+    com.wxf.mobilesafe.service.AppLockService this$0 -> a
+    void onReceive(android.content.Context,android.content.Intent) -> onReceive
+com.wxf.mobilesafe.service.AppLockService$MyContentObserver -> com.wxf.mobilesafe.service.h:
+    com.wxf.mobilesafe.service.AppLockService this$0 -> a
+    void onChange(boolean) -> onChange
+com.wxf.mobilesafe.service.BlackNumberService -> com.wxf.mobilesafe.service.BlackNumberService:
+    com.wxf.mobilesafe.service.BlackNumberService$InnerSmsReceiver innerSmsReceiver -> a
+    android.telephony.TelephonyManager mTM -> b
+    com.wxf.mobilesafe.service.BlackNumberService$MyPhoneStateListener myPhoneStateListener -> c
+    java.lang.String tag -> d
+    com.wxf.mobilesafe.service.BlackNumberService$MyContentObserver myContentObserver -> e
+    void onCreate() -> onCreate
+    android.os.IBinder onBind(android.content.Intent) -> onBind
+    void endCall(java.lang.String) -> a
+    void onDestroy() -> onDestroy
+com.wxf.mobilesafe.service.BlackNumberService$InnerSmsReceiver -> com.wxf.mobilesafe.service.i:
+    com.wxf.mobilesafe.service.BlackNumberService this$0 -> a
+    void onReceive(android.content.Context,android.content.Intent) -> onReceive
+com.wxf.mobilesafe.service.BlackNumberService$MyContentObserver -> com.wxf.mobilesafe.service.j:
+    java.lang.String phone -> b
+    com.wxf.mobilesafe.service.BlackNumberService this$0 -> a
+    void onChange(boolean) -> onChange
+com.wxf.mobilesafe.service.BlackNumberService$MyPhoneStateListener -> com.wxf.mobilesafe.service.k:
+    com.wxf.mobilesafe.service.BlackNumberService this$0 -> a
+    void onCallStateChanged(int,java.lang.String) -> onCallStateChanged
+com.wxf.mobilesafe.service.LocationService -> com.wxf.mobilesafe.service.LocationService:
+    java.lang.String tag -> a
+    android.os.IBinder onBind(android.content.Intent) -> onBind
+    void onCreate() -> onCreate
+    java.lang.String access$0(com.wxf.mobilesafe.service.LocationService) -> a
+com.wxf.mobilesafe.service.LocationService$MyLocationListener -> com.wxf.mobilesafe.service.l:
+    com.wxf.mobilesafe.service.LocationService this$0 -> a
+    void onLocationChanged(android.location.Location) -> onLocationChanged
+    void onStatusChanged(java.lang.String,int,android.os.Bundle) -> onStatusChanged
+    void onProviderEnabled(java.lang.String) -> onProviderEnabled
+    void onProviderDisabled(java.lang.String) -> onProviderDisabled
+com.wxf.mobilesafe.service.LockScreenClean -> com.wxf.mobilesafe.service.LockScreenClean:
+    com.wxf.mobilesafe.service.LockScreenClean$InnerReceiver innerReceiver -> a
+    android.os.IBinder onBind(android.content.Intent) -> onBind
+    void onCreate() -> onCreate
+    void onDestroy() -> onDestroy
+com.wxf.mobilesafe.service.LockScreenClean$InnerReceiver -> com.wxf.mobilesafe.service.m:
+    com.wxf.mobilesafe.service.LockScreenClean this$0 -> a
+    void onReceive(android.content.Context,android.content.Intent) -> onReceive
+com.wxf.mobilesafe.service.UpdateAppWidget -> com.wxf.mobilesafe.service.UpdateAppWidget:
+    java.util.Timer mTimer -> a
+    com.wxf.mobilesafe.service.UpdateAppWidget$InnerReceiver mInnerReceiver -> b
+    android.os.IBinder onBind(android.content.Intent) -> onBind
+    void onCreate() -> onCreate
+    void startTime() -> c
+    void cancleTaskTimer() -> a
+    void updateWidget() -> b
+    void onDestroy() -> onDestroy
+    void access$0(com.wxf.mobilesafe.service.UpdateAppWidget) -> a
+com.wxf.mobilesafe.service.UpdateAppWidget$1 -> com.wxf.mobilesafe.service.n:
+    com.wxf.mobilesafe.service.UpdateAppWidget this$0 -> a
+    void run() -> run
+com.wxf.mobilesafe.service.UpdateAppWidget$InnerReceiver -> com.wxf.mobilesafe.service.o:
+    com.wxf.mobilesafe.service.UpdateAppWidget this$0 -> a
+    void onReceive(android.content.Context,android.content.Intent) -> onReceive
+com.wxf.mobilesafe.utils.ConstaxtValuse -> com.wxf.mobilesafe.c.a:
+    java.lang.String MOBILE_SAFE_PSD -> a
+com.wxf.mobilesafe.utils.Md5Util -> com.wxf.mobilesafe.c.b:
+    java.lang.String encoder(java.lang.String) -> a
+com.wxf.mobilesafe.utils.ServiceUtil -> com.wxf.mobilesafe.c.c:
+    boolean isRunning(android.content.Context,java.lang.String) -> a
+com.wxf.mobilesafe.utils.SpUtil -> com.wxf.mobilesafe.c.d:
+    android.content.SharedPreferences sp -> a
+    boolean getBoolean(android.content.Context,java.lang.String,boolean) -> a
+    void setBoolean(android.content.Context,java.lang.String,boolean) -> b
+    java.lang.String getPsd(android.content.Context,java.lang.String,java.lang.String) -> a
+    void setPsd(android.content.Context,java.lang.String,java.lang.String) -> b
+    int getInt(android.content.Context,java.lang.String,int) -> a
+    void setInt(android.content.Context,java.lang.String,int) -> b
+    void romove(android.content.Context,java.lang.String) -> a
+com.wxf.mobilesafe.utils.StreamUtil -> com.wxf.mobilesafe.c.e:
+    java.lang.String streamToString(java.io.InputStream) -> a
+com.wxf.mobilesafe.utils.ToastUtil -> com.wxf.mobilesafe.c.f:
+    void toast(android.content.Context,java.lang.String) -> a
+com.wxf.mobilesafe.view.FocusTextView -> com.wxf.mobilesafe.view.FocusTextView:
+    boolean isFocused() -> isFocused
+com.wxf.mobilesafe.view.SettingClickView -> com.wxf.mobilesafe.view.SettingClickView:
+    android.widget.TextView tv_des -> a
+    android.widget.TextView tv_title -> b
+    void setTitle(java.lang.String) -> setTitle
+    void setDes(java.lang.String) -> setDes
+com.wxf.mobilesafe.view.SettingView -> com.wxf.mobilesafe.view.SettingView:
+    android.widget.CheckBox cb_box -> a
+    android.widget.TextView tv_des -> b
+    android.widget.TextView tv_title -> c
+    java.lang.String desoff -> d
+    java.lang.String deson -> e
+    java.lang.String destitle -> f
+    void initAttrs(android.util.AttributeSet) -> a
+    boolean isCheck() -> a
+    void setCheck(boolean) -> setCheck

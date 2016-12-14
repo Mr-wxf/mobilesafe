@@ -1,0 +1,340 @@
+com.lidroid.xutils.bitmap.callback.BitmapLoadFrom: com.lidroid.xutils.bitmap.callback.BitmapLoadFrom[] values()
+com.lidroid.xutils.bitmap.callback.BitmapLoadFrom: com.lidroid.xutils.bitmap.callback.BitmapLoadFrom valueOf(java.lang.String)
+com.lidroid.xutils.db.sqlite.ColumnDbType: com.lidroid.xutils.db.sqlite.ColumnDbType[] values()
+com.lidroid.xutils.db.sqlite.ColumnDbType: com.lidroid.xutils.db.sqlite.ColumnDbType valueOf(java.lang.String)
+com.lidroid.xutils.http.HttpHandler$State: com.lidroid.xutils.http.HttpHandler$State[] values()
+com.lidroid.xutils.http.HttpHandler$State: com.lidroid.xutils.http.HttpHandler$State valueOf(java.lang.String)
+com.lidroid.xutils.http.client.HttpRequest$HttpMethod: com.lidroid.xutils.http.client.HttpRequest$HttpMethod[] values()
+com.lidroid.xutils.http.client.HttpRequest$HttpMethod: com.lidroid.xutils.http.client.HttpRequest$HttpMethod valueOf(java.lang.String)
+com.lidroid.xutils.http.client.multipart.HttpMultipartMode: com.lidroid.xutils.http.client.multipart.HttpMultipartMode[] values()
+com.lidroid.xutils.http.client.multipart.HttpMultipartMode: com.lidroid.xutils.http.client.multipart.HttpMultipartMode valueOf(java.lang.String)
+com.lidroid.xutils.task.Priority: com.lidroid.xutils.task.Priority[] values()
+com.lidroid.xutils.task.Priority: com.lidroid.xutils.task.Priority valueOf(java.lang.String)
+com.lidroid.xutils.view.ResType: com.lidroid.xutils.view.ResType[] values()
+com.lidroid.xutils.view.ResType: com.lidroid.xutils.view.ResType valueOf(java.lang.String)
+com.wxf.mobilesafe.R$anim: int cycle_7
+com.wxf.mobilesafe.R$anim: int next_in_anim
+com.wxf.mobilesafe.R$anim: int next_out_anim
+com.wxf.mobilesafe.R$anim: int pre_in_anim
+com.wxf.mobilesafe.R$anim: int pre_out_anim
+com.wxf.mobilesafe.R$anim: int shake
+com.wxf.mobilesafe.R$attr: int desoff
+com.wxf.mobilesafe.R$attr: int deson
+com.wxf.mobilesafe.R$attr: int destitle
+com.wxf.mobilesafe.R$color: int atool_item_color
+com.wxf.mobilesafe.R$color: int atool_item_color_src
+com.wxf.mobilesafe.R$dimen: int activity_horizontal_margin
+com.wxf.mobilesafe.R$dimen: int activity_vertical_margin
+com.wxf.mobilesafe.R$drawable: int act_scanning_03
+com.wxf.mobilesafe.R$drawable: int atool_item_bg
+com.wxf.mobilesafe.R$drawable: int bind
+com.wxf.mobilesafe.R$drawable: int btn_green_normal
+com.wxf.mobilesafe.R$drawable: int btn_green_pressed
+com.wxf.mobilesafe.R$drawable: int call_locate_blue
+com.wxf.mobilesafe.R$drawable: int call_locate_gray
+com.wxf.mobilesafe.R$drawable: int call_locate_green
+com.wxf.mobilesafe.R$drawable: int call_locate_orange
+com.wxf.mobilesafe.R$drawable: int call_locate_white
+com.wxf.mobilesafe.R$drawable: int drag
+com.wxf.mobilesafe.R$drawable: int function_greenbutton_normal
+com.wxf.mobilesafe.R$drawable: int function_greenbutton_pressed
+com.wxf.mobilesafe.R$drawable: int gradient_box
+com.wxf.mobilesafe.R$drawable: int home_apps
+com.wxf.mobilesafe.R$drawable: int home_callmsgsafe
+com.wxf.mobilesafe.R$drawable: int home_netmanager
+com.wxf.mobilesafe.R$drawable: int home_safe
+com.wxf.mobilesafe.R$drawable: int home_settings
+com.wxf.mobilesafe.R$drawable: int home_sysoptimize
+com.wxf.mobilesafe.R$drawable: int home_taskmanager
+com.wxf.mobilesafe.R$drawable: int home_tools
+com.wxf.mobilesafe.R$drawable: int home_trojan
+com.wxf.mobilesafe.R$drawable: int ic_launcher
+com.wxf.mobilesafe.R$drawable: int ic_scanner_malware
+com.wxf.mobilesafe.R$drawable: int img1
+com.wxf.mobilesafe.R$drawable: int img2
+com.wxf.mobilesafe.R$drawable: int img3
+com.wxf.mobilesafe.R$drawable: int jiantou1_pressed
+com.wxf.mobilesafe.R$drawable: int launcher_bg
+com.wxf.mobilesafe.R$drawable: int listview_divider
+com.wxf.mobilesafe.R$drawable: int local_popup_bg
+com.wxf.mobilesafe.R$drawable: int lock
+com.wxf.mobilesafe.R$drawable: int main_clean_icon
+com.wxf.mobilesafe.R$drawable: int main_clean_icon_pressed
+com.wxf.mobilesafe.R$drawable: int next
+com.wxf.mobilesafe.R$drawable: int next_btn_bg
+com.wxf.mobilesafe.R$drawable: int phone
+com.wxf.mobilesafe.R$drawable: int previous
+com.wxf.mobilesafe.R$drawable: int progress_bg
+com.wxf.mobilesafe.R$drawable: int resert_bg
+com.wxf.mobilesafe.R$drawable: int security_progress
+com.wxf.mobilesafe.R$drawable: int security_progress_bg
+com.wxf.mobilesafe.R$drawable: int select_blacknumber_delete_bg
+com.wxf.mobilesafe.R$drawable: int select_people_number
+com.wxf.mobilesafe.R$drawable: int setup1
+com.wxf.mobilesafe.R$drawable: int tab_left_default
+com.wxf.mobilesafe.R$drawable: int tab_left_pressed
+com.wxf.mobilesafe.R$drawable: int tab_right_default
+com.wxf.mobilesafe.R$drawable: int tab_right_pressed
+com.wxf.mobilesafe.R$drawable: int unlock
+com.wxf.mobilesafe.R$drawable: int widget_bg_portrait
+com.wxf.mobilesafe.R$drawable: int widget_bg_portrait_child
+com.wxf.mobilesafe.R$drawable: int widget_bg_portrait_child_divider
+com.wxf.mobilesafe.R$id: int action_settings
+com.wxf.mobilesafe.R$id: int addressview
+com.wxf.mobilesafe.R$id: int bt_add
+com.wxf.mobilesafe.R$id: int bt_all_select
+com.wxf.mobilesafe.R$id: int bt_bottom
+com.wxf.mobilesafe.R$id: int bt_cache_clear
+com.wxf.mobilesafe.R$id: int bt_cancel
+com.wxf.mobilesafe.R$id: int bt_cencal
+com.wxf.mobilesafe.R$id: int bt_clear
+com.wxf.mobilesafe.R$id: int bt_confirm
+com.wxf.mobilesafe.R$id: int bt_contact
+com.wxf.mobilesafe.R$id: int bt_lock
+com.wxf.mobilesafe.R$id: int bt_query
+com.wxf.mobilesafe.R$id: int bt_remove
+com.wxf.mobilesafe.R$id: int bt_reverse_select
+com.wxf.mobilesafe.R$id: int bt_setting
+com.wxf.mobilesafe.R$id: int bt_submit
+com.wxf.mobilesafe.R$id: int bt_top
+com.wxf.mobilesafe.R$id: int bt_unlock
+com.wxf.mobilesafe.R$id: int cb_box
+com.wxf.mobilesafe.R$id: int cb_check
+com.wxf.mobilesafe.R$id: int cb_lock_screen_clean
+com.wxf.mobilesafe.R$id: int cb_show_system_process
+com.wxf.mobilesafe.R$id: int cb_success
+com.wxf.mobilesafe.R$id: int content
+com.wxf.mobilesafe.R$id: int elv_common_number
+com.wxf.mobilesafe.R$id: int et_confirm_psd
+com.wxf.mobilesafe.R$id: int et_contact_number
+com.wxf.mobilesafe.R$id: int et_input_psd
+com.wxf.mobilesafe.R$id: int et_phone
+com.wxf.mobilesafe.R$id: int et_psd
+com.wxf.mobilesafe.R$id: int gv_home
+com.wxf.mobilesafe.R$id: int handle
+com.wxf.mobilesafe.R$id: int iv
+com.wxf.mobilesafe.R$id: int iv_app_icon
+com.wxf.mobilesafe.R$id: int iv_clear
+com.wxf.mobilesafe.R$id: int iv_con
+com.wxf.mobilesafe.R$id: int iv_del
+com.wxf.mobilesafe.R$id: int iv_drag
+com.wxf.mobilesafe.R$id: int iv_icon
+com.wxf.mobilesafe.R$id: int iv_icon2
+com.wxf.mobilesafe.R$id: int iv_lock_icon
+com.wxf.mobilesafe.R$id: int iv_need_clear_app_icon
+com.wxf.mobilesafe.R$id: int iv_scan_icon
+com.wxf.mobilesafe.R$id: int ll_cache_app
+com.wxf.mobilesafe.R$id: int ll_item
+com.wxf.mobilesafe.R$id: int ll_list
+com.wxf.mobilesafe.R$id: int ll_lock
+com.wxf.mobilesafe.R$id: int ll_root
+com.wxf.mobilesafe.R$id: int ll_unlock
+com.wxf.mobilesafe.R$id: int lv_app_manager
+com.wxf.mobilesafe.R$id: int lv_blacknumber
+com.wxf.mobilesafe.R$id: int lv_contact
+com.wxf.mobilesafe.R$id: int lv_lock
+com.wxf.mobilesafe.R$id: int lv_process
+com.wxf.mobilesafe.R$id: int lv_unlock
+com.wxf.mobilesafe.R$id: int pb
+com.wxf.mobilesafe.R$id: int pb_bar
+com.wxf.mobilesafe.R$id: int pb_cache
+com.wxf.mobilesafe.R$id: int rb_all
+com.wxf.mobilesafe.R$id: int rb_phone
+com.wxf.mobilesafe.R$id: int rb_sms
+com.wxf.mobilesafe.R$id: int rg_group
+com.wxf.mobilesafe.R$id: int rl_root
+com.wxf.mobilesafe.R$id: int scv_location
+com.wxf.mobilesafe.R$id: int settingview
+com.wxf.mobilesafe.R$id: int setup_bount
+com.wxf.mobilesafe.R$id: int siv_app_lock
+com.wxf.mobilesafe.R$id: int sv_blacknumber
+com.wxf.mobilesafe.R$id: int toast_style_view
+com.wxf.mobilesafe.R$id: int tv
+com.wxf.mobilesafe.R$id: int tv_app_lock
+com.wxf.mobilesafe.R$id: int tv_app_name
+com.wxf.mobilesafe.R$id: int tv_appname
+com.wxf.mobilesafe.R$id: int tv_appname2
+com.wxf.mobilesafe.R$id: int tv_cache_size
+com.wxf.mobilesafe.R$id: int tv_child_name
+com.wxf.mobilesafe.R$id: int tv_child_number
+com.wxf.mobilesafe.R$id: int tv_common_number
+com.wxf.mobilesafe.R$id: int tv_des
+com.wxf.mobilesafe.R$id: int tv_item
+com.wxf.mobilesafe.R$id: int tv_lock_app
+com.wxf.mobilesafe.R$id: int tv_memory
+com.wxf.mobilesafe.R$id: int tv_memory2
+com.wxf.mobilesafe.R$id: int tv_mode
+com.wxf.mobilesafe.R$id: int tv_name
+com.wxf.mobilesafe.R$id: int tv_need_clear_app_name
+com.wxf.mobilesafe.R$id: int tv_path
+com.wxf.mobilesafe.R$id: int tv_phone
+com.wxf.mobilesafe.R$id: int tv_phone_address
+com.wxf.mobilesafe.R$id: int tv_process_count
+com.wxf.mobilesafe.R$id: int tv_process_memory
+com.wxf.mobilesafe.R$id: int tv_query_phone_number
+com.wxf.mobilesafe.R$id: int tv_resert
+com.wxf.mobilesafe.R$id: int tv_scan_app_name
+com.wxf.mobilesafe.R$id: int tv_scanning_app
+com.wxf.mobilesafe.R$id: int tv_sd_card
+com.wxf.mobilesafe.R$id: int tv_security_number
+com.wxf.mobilesafe.R$id: int tv_share
+com.wxf.mobilesafe.R$id: int tv_showtoast
+com.wxf.mobilesafe.R$id: int tv_sms_backup
+com.wxf.mobilesafe.R$id: int tv_start
+com.wxf.mobilesafe.R$id: int tv_title
+com.wxf.mobilesafe.R$id: int tv_uninstall
+com.wxf.mobilesafe.R$id: int tv_unlock_app
+com.wxf.mobilesafe.R$id: int tv_version_name
+com.wxf.mobilesafe.R$layout: int activity_altool
+com.wxf.mobilesafe.R$layout: int activity_app_lock
+com.wxf.mobilesafe.R$layout: int activity_appmanager
+com.wxf.mobilesafe.R$layout: int activity_base_claer_cache
+com.wxf.mobilesafe.R$layout: int activity_blacknumber
+com.wxf.mobilesafe.R$layout: int activity_cache_clear
+com.wxf.mobilesafe.R$layout: int activity_common_number
+com.wxf.mobilesafe.R$layout: int activity_contactlist
+com.wxf.mobilesafe.R$layout: int activity_enter_psd
+com.wxf.mobilesafe.R$layout: int activity_home
+com.wxf.mobilesafe.R$layout: int activity_killvirus
+com.wxf.mobilesafe.R$layout: int activity_process_manager
+com.wxf.mobilesafe.R$layout: int activity_process_setting
+com.wxf.mobilesafe.R$layout: int activity_queryphonenumber
+com.wxf.mobilesafe.R$layout: int activity_setting
+com.wxf.mobilesafe.R$layout: int activity_splash
+com.wxf.mobilesafe.R$layout: int activity_toast_location
+com.wxf.mobilesafe.R$layout: int activity_traffic
+com.wxf.mobilesafe.R$layout: int app_lock_item
+com.wxf.mobilesafe.R$layout: int appinfolist_item
+com.wxf.mobilesafe.R$layout: int appinfolist_item_title
+com.wxf.mobilesafe.R$layout: int blacknumbet_item
+com.wxf.mobilesafe.R$layout: int common_number_child_item
+com.wxf.mobilesafe.R$layout: int confirm_psd_view
+com.wxf.mobilesafe.R$layout: int contact_item
+com.wxf.mobilesafe.R$layout: int dialog_blacknumber
+com.wxf.mobilesafe.R$layout: int gridview_item
+com.wxf.mobilesafe.R$layout: int lenearlayout_cache_item
+com.wxf.mobilesafe.R$layout: int popuwindon_layout
+com.wxf.mobilesafe.R$layout: int process_widget
+com.wxf.mobilesafe.R$layout: int processinfolist_item
+com.wxf.mobilesafe.R$layout: int set_psd_view
+com.wxf.mobilesafe.R$layout: int setting_click_view
+com.wxf.mobilesafe.R$layout: int setting_item_view
+com.wxf.mobilesafe.R$layout: int setup1_activity
+com.wxf.mobilesafe.R$layout: int setup2_activity
+com.wxf.mobilesafe.R$layout: int setup3_activity
+com.wxf.mobilesafe.R$layout: int setup4_activity
+com.wxf.mobilesafe.R$layout: int setup_over
+com.wxf.mobilesafe.R$layout: int showtoast_item
+com.wxf.mobilesafe.R$menu: int main
+com.wxf.mobilesafe.R$raw: int ylzs
+com.wxf.mobilesafe.R$string: int action_settings
+com.wxf.mobilesafe.R$string: int app_name
+com.wxf.mobilesafe.R$string: int hello_world
+com.wxf.mobilesafe.R$string: int sample_device_admin
+com.wxf.mobilesafe.R$string: int sample_device_admin_description
+com.wxf.mobilesafe.R$style: int AppBaseTheme
+com.wxf.mobilesafe.R$style: int AppTheme
+com.wxf.mobilesafe.R$style: int NextButton
+com.wxf.mobilesafe.R$style: int PreButton
+com.wxf.mobilesafe.R$style: int TitleStyle
+com.wxf.mobilesafe.R$styleable: int[] com_wxf_mobilesafe_view_SettingView
+com.wxf.mobilesafe.R$styleable: int com_wxf_mobilesafe_view_SettingView_desoff
+com.wxf.mobilesafe.R$styleable: int com_wxf_mobilesafe_view_SettingView_deson
+com.wxf.mobilesafe.R$styleable: int com_wxf_mobilesafe_view_SettingView_destitle
+com.wxf.mobilesafe.R$xml: int device_admin_sample
+com.wxf.mobilesafe.R$xml: int process_widget_provider
+com.wxf.mobilesafe.activity.AppLockActivity
+com.wxf.mobilesafe.activity.AppLockActivity: AppLockActivity()
+com.wxf.mobilesafe.activity.AppManager
+com.wxf.mobilesafe.activity.AppManager: AppManager()
+com.wxf.mobilesafe.activity.AppManager: void onClick(android.view.View)
+com.wxf.mobilesafe.activity.AtoolsActivity
+com.wxf.mobilesafe.activity.AtoolsActivity: AtoolsActivity()
+com.wxf.mobilesafe.activity.BaseCacheClearActivity
+com.wxf.mobilesafe.activity.BaseCacheClearActivity: BaseCacheClearActivity()
+com.wxf.mobilesafe.activity.BaseSetupActivity
+com.wxf.mobilesafe.activity.BaseSetupActivity: BaseSetupActivity()
+com.wxf.mobilesafe.activity.BaseSetupActivity: void bt_next(android.view.View)
+com.wxf.mobilesafe.activity.BaseSetupActivity: void bt_pre(android.view.View)
+com.wxf.mobilesafe.activity.BlackNumberActivity
+com.wxf.mobilesafe.activity.BlackNumberActivity: BlackNumberActivity()
+com.wxf.mobilesafe.activity.CacheClearActivity
+com.wxf.mobilesafe.activity.CacheClearActivity: CacheClearActivity()
+com.wxf.mobilesafe.activity.CommonNumberActivity
+com.wxf.mobilesafe.activity.CommonNumberActivity: CommonNumberActivity()
+com.wxf.mobilesafe.activity.ContactListActivity
+com.wxf.mobilesafe.activity.ContactListActivity: ContactListActivity()
+com.wxf.mobilesafe.activity.EnterPsdActivity
+com.wxf.mobilesafe.activity.EnterPsdActivity: EnterPsdActivity()
+com.wxf.mobilesafe.activity.HomeActivity
+com.wxf.mobilesafe.activity.HomeActivity: HomeActivity()
+com.wxf.mobilesafe.activity.KillVirusActivity
+com.wxf.mobilesafe.activity.KillVirusActivity: KillVirusActivity()
+com.wxf.mobilesafe.activity.ProcessManager
+com.wxf.mobilesafe.activity.ProcessManager: ProcessManager()
+com.wxf.mobilesafe.activity.ProcessManager: void onClick(android.view.View)
+com.wxf.mobilesafe.activity.ProcessSettingActivity
+com.wxf.mobilesafe.activity.ProcessSettingActivity: ProcessSettingActivity()
+com.wxf.mobilesafe.activity.QueryPhoneNumberActivity
+com.wxf.mobilesafe.activity.QueryPhoneNumberActivity: QueryPhoneNumberActivity()
+com.wxf.mobilesafe.activity.SDcardCacheClearActivity
+com.wxf.mobilesafe.activity.SDcardCacheClearActivity: SDcardCacheClearActivity()
+com.wxf.mobilesafe.activity.SettingActivity
+com.wxf.mobilesafe.activity.SettingActivity: SettingActivity()
+com.wxf.mobilesafe.activity.Setup1Activity
+com.wxf.mobilesafe.activity.Setup1Activity: Setup1Activity()
+com.wxf.mobilesafe.activity.Setup2Activity
+com.wxf.mobilesafe.activity.Setup2Activity: Setup2Activity()
+com.wxf.mobilesafe.activity.Setup3Activity
+com.wxf.mobilesafe.activity.Setup3Activity: Setup3Activity()
+com.wxf.mobilesafe.activity.Setup4Activity
+com.wxf.mobilesafe.activity.Setup4Activity: Setup4Activity()
+com.wxf.mobilesafe.activity.SetupOver
+com.wxf.mobilesafe.activity.SetupOver: SetupOver()
+com.wxf.mobilesafe.activity.SplashActivity
+com.wxf.mobilesafe.activity.SplashActivity: SplashActivity()
+com.wxf.mobilesafe.activity.TestActivity
+com.wxf.mobilesafe.activity.TestActivity: TestActivity()
+com.wxf.mobilesafe.activity.ToastLocationActivity
+com.wxf.mobilesafe.activity.ToastLocationActivity: ToastLocationActivity()
+com.wxf.mobilesafe.activity.TrafficActivity
+com.wxf.mobilesafe.activity.TrafficActivity: TrafficActivity()
+com.wxf.mobilesafe.application.MyApplication
+com.wxf.mobilesafe.application.MyApplication: MyApplication()
+com.wxf.mobilesafe.receiver.BootReceiver
+com.wxf.mobilesafe.receiver.BootReceiver: BootReceiver()
+com.wxf.mobilesafe.receiver.DeviceAdmin
+com.wxf.mobilesafe.receiver.DeviceAdmin: DeviceAdmin()
+com.wxf.mobilesafe.receiver.KillAllProcessReceiver
+com.wxf.mobilesafe.receiver.KillAllProcessReceiver: KillAllProcessReceiver()
+com.wxf.mobilesafe.receiver.MyAppWidgetProvider
+com.wxf.mobilesafe.receiver.MyAppWidgetProvider: MyAppWidgetProvider()
+com.wxf.mobilesafe.receiver.SMSAlarmReceiver
+com.wxf.mobilesafe.receiver.SMSAlarmReceiver: SMSAlarmReceiver()
+com.wxf.mobilesafe.service.AddressService
+com.wxf.mobilesafe.service.AddressService: AddressService()
+com.wxf.mobilesafe.service.AppLockService
+com.wxf.mobilesafe.service.AppLockService: AppLockService()
+com.wxf.mobilesafe.service.BlackNumberService
+com.wxf.mobilesafe.service.BlackNumberService: BlackNumberService()
+com.wxf.mobilesafe.service.LocationService
+com.wxf.mobilesafe.service.LocationService: LocationService()
+com.wxf.mobilesafe.service.LockScreenClean
+com.wxf.mobilesafe.service.LockScreenClean: LockScreenClean()
+com.wxf.mobilesafe.service.UpdateAppWidget
+com.wxf.mobilesafe.service.UpdateAppWidget: UpdateAppWidget()
+com.wxf.mobilesafe.view.FocusTextView
+com.wxf.mobilesafe.view.FocusTextView: FocusTextView(android.content.Context)
+com.wxf.mobilesafe.view.FocusTextView: FocusTextView(android.content.Context,android.util.AttributeSet)
+com.wxf.mobilesafe.view.FocusTextView: FocusTextView(android.content.Context,android.util.AttributeSet,int)
+com.wxf.mobilesafe.view.SettingClickView
+com.wxf.mobilesafe.view.SettingClickView: SettingClickView(android.content.Context)
+com.wxf.mobilesafe.view.SettingClickView: SettingClickView(android.content.Context,android.util.AttributeSet)
+com.wxf.mobilesafe.view.SettingClickView: SettingClickView(android.content.Context,android.util.AttributeSet,int)
+com.wxf.mobilesafe.view.SettingClickView: void setTitle(java.lang.String)
+com.wxf.mobilesafe.view.SettingClickView: void setDes(java.lang.String)
+com.wxf.mobilesafe.view.SettingView
+com.wxf.mobilesafe.view.SettingView: SettingView(android.content.Context)
+com.wxf.mobilesafe.view.SettingView: SettingView(android.content.Context,android.util.AttributeSet)
+com.wxf.mobilesafe.view.SettingView: SettingView(android.content.Context,android.util.AttributeSet,int)
+com.wxf.mobilesafe.view.SettingView: void setCheck(boolean)
